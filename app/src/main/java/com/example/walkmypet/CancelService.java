@@ -20,6 +20,8 @@ public class CancelService extends AppCompatActivity{
     Button cancelarServicioButton;
     Button atrasButton;
 
+    CustomAdapter customAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +55,7 @@ public class CancelService extends AppCompatActivity{
         servicesList.add(service5);
 
         // Adapter
-        CustomAdapter customAdapter = new CustomAdapter(this, R.layout.list_item, servicesList);
+        CustomAdapterRecyclerView customAdapterRecyclerView = new CustomAdapterRecyclerView(this, R.layout.list_item, servicesList);
         serviciosListViewLV.setAdapter(customAdapter);
     }
 }

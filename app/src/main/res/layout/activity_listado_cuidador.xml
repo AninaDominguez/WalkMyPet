@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recivlerVw"
+        android:id="@+id/recivlerVwCuidador"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="200dp"
@@ -76,5 +76,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recivlerVw" />
+        app:layout_constraintTop_toBottomOf="@+id/recivlerVwCuidador" />
 </androidx.constraintlayout.widget.ConstraintLayout>
