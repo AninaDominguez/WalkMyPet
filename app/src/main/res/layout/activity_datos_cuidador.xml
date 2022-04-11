@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="138dp"
         android:layout_marginEnd="80dp"
-        android:text="Button"
+        android:text="Contratar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchVw" />
 
@@ -62,7 +62,7 @@
         android:layout_marginStart="191dp"
         android:layout_marginTop="276dp"
         android:layout_marginEnd="191dp"
-        android:text="TextView"
+        android:text="Rating"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +85,8 @@
         android:layout_marginTop="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mascotaNameTv" />
+        app:layout_constraintTop_toBottomOf="@+id/mascotaNameTv"
+        android:isIndicator="true"/>
 
     <CalendarView
         android:id="@+id/calendarView"
