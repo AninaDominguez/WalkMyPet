@@ -10,12 +10,13 @@
 
 
     <ImageView
-        android:layout_marginTop="150dp"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:id="@+id/logoApp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="50dp"
+        tools:ignore="ImageContrastCheck"
         android:layout_gravity="center_horizontal"
-        android:scaleType="centerCrop"
-        android:src="@drawable/logowalkmypet" />
+        android:src="@drawable/logoapp" />
 
     <TextView
         android:layout_marginTop="20dp"
@@ -39,15 +40,13 @@
         android:layout_width="250px"
         android:layout_height="250px"
         android:layout_marginLeft="70dp"
-        android:text="SI"
-        android:backgroundTint="@color/black"/>
+        android:text="SI"/>
 
         <Button
             android:text="NO"
             android:layout_marginLeft="80dp"
             android:layout_width="250px"
-            android:layout_height="250px"
-            android:backgroundTint="@color/black"/>
+            android:layout_height="250px"/>
 
     </LinearLayout>
 </LinearLayout>
