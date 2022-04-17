@@ -1,7 +1,10 @@
 package com.example.walkmypet;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
@@ -21,6 +24,8 @@ public class CancelService extends AppCompatActivity{
     Button atrasButton;
 
     CustomAdapter customAdapter;
+    private Object EditarMascotaActivity;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,5 +62,21 @@ public class CancelService extends AppCompatActivity{
         // Adapter
         CustomAdapterRecyclerView customAdapterRecyclerView = new CustomAdapterRecyclerView(this, R.layout.list_item, servicesList);
         serviciosListViewLV.setAdapter(customAdapter);
+    }
+
+
+    //Método para ir al perfil del propietario
+    public void goToMyProfile(View view){
+        Intent intent = new Intent(this,EditarMascotaActivity.class);
+        startActivity(intent);
+
+
+    }
+    //Método para volver al inicio
+    public void goToBack(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+
+
     }
 }

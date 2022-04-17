@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    >
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/svSearch"
@@ -22,7 +22,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:queryHint="Buscar" />
 
-    <ImageView
+    <ImageButton
+        android:onClick="goToMyProfile"
         android:id="@+id/imageView"
         android:layout_width="36dp"
         android:layout_height="44dp"
@@ -34,7 +35,8 @@
         app:srcCompat="@android:drawable/ic_menu_myplaces"
         android:src="@drawable/iconoperfil" />
 
-    <ImageView
+    <ImageButton
+        android:onClick="goToBack"
         android:id="@+id/imageView2"
         android:layout_width="51dp"
         android:layout_height="43dp"
