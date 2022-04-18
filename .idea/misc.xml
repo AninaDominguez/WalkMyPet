@@ -7,19 +7,19 @@
         <entry key="app/src/main/res/layout/activity_anadir.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/activity_cancelar.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/activity_cancelservice.xml" value="0.12291666666666666" />
-        <entry key="app/src/main/res/layout/activity_cuenta_dueno.xml" value="0.12291666666666666" />
+        <entry key="app/src/main/res/layout/activity_cuenta_dueno.xml" value="0.6261713663736981" />
         <entry key="app/src/main/res/layout/activity_darbaja.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/activity_datapet.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/activity_datos_cuidador.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/activity_deleteservice.xml" value="0.12291666666666666" />
-        <entry key="app/src/main/res/layout/activity_editar_mascota.xml" value="0.12291666666666666" />
+        <entry key="app/src/main/res/layout/activity_editar_mascota.xml" value="0.3514399210611979" />
         <entry key="app/src/main/res/layout/activity_listado_cuidador.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/activity_localizacion.xml" value="0.3206736246744792" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.13496376811594202" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5409500122070312" />
         <entry key="app/src/main/res/layout/activity_resetpassword.xml" value="0.29332711040109827" />
         <entry key="app/src/main/res/layout/activity_signin.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.226700439453125" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.4712530517578126" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/list_item025.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/list_item026.xml" value="0.12291666666666666" />
