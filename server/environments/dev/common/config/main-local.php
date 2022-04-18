@@ -4,7 +4,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=walkmypet_test',
+            'dsn' => 'mysql:host=localhost;dbname=walkmypet',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
