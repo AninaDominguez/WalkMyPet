@@ -1,7 +1,10 @@
 package com.example.walkmypet;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
@@ -57,6 +60,21 @@ public class DeleteService extends AppCompatActivity{
         // Adapter
         CustomAdapter026 customAdapter = new CustomAdapter026(this, R.layout.list_item026, servicesList);
         serviciosListViewLV.setAdapter(customAdapter);
+    }
+
+    //Método para ir al perfil del propietario
+    public void goToMyProfile(View view){
+        Intent intent = new Intent(this,EditarMascotaActivity.class);
+        startActivity(intent);
+
+
+    }
+    //Método para volver al inicio
+    public void goToBack(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+
+
     }
 
 }

@@ -6,16 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".ListadoCuidadorActivity">
 
+    <TextView
+        android:id="@+id/salirTextViewTV2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="Salir"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SalirImageButtonIB" />
+
+    <ImageButton
+        android:id="@+id/perfilImageButttonIB"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToMyProfile"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iconoperfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/perfilTextViewTV2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Perfil"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PerfilImageButttonIB" />
+
+    <ImageButton
+        android:id="@+id/salirImageButtonIB2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="goToBack"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <SearchView
         android:id="@+id/searchVw"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
         android:layout_marginStart="65dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="65dp"
         android:queryHint="Buscar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,40 +79,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchVw" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="63dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/searchVw"
-        app:layout_constraintHorizontal_bias="0.38"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <EditText
-        android:id="@+id/editTexProfille"
-        android:layout_width="54dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="MyProfile"
-        android:textSize="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
-
     <Button
         android:id="@+id/searchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="156dp"
         android:text="Buscar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.358"
-        app:layout_constraintStart_toEndOf="@+id/editTexProfille"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchVw" />
 
     <Button
