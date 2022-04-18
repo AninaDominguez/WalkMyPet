@@ -1,5 +1,7 @@
 package com.example.walkmypet;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
@@ -56,4 +58,20 @@ public class AddService extends AppCompatActivity {
         CustomAdapter025 customAdapter = new CustomAdapter025(this, R.layout.list_item025, servicesList);
         serviciosListViewLV.setAdapter(customAdapter);
     }
+
+    //Método para ir al perfil del propietario
+    public void goToMyProfile(View view){
+        Intent intent = new Intent(this,EditarMascotaActivity.class);
+        startActivity(intent);
+
+
+    }
+    //Método para volver al inicio
+    public void goToBack(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+
+
+    }
+
 }

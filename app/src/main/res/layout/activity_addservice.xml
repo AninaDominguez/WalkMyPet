@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <ImageButton
+        android:onClick="goToMyProfile"
         android:id="@+id/PerfilImageButttonIB"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -29,6 +30,7 @@
         />
 
     <ImageButton
+        android:onClick="goToBack"
         android:id="@+id/SalirImageButtonIB"
         android:layout_width="100dp"
         android:layout_height="100dp"
