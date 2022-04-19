@@ -48,11 +48,12 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/user'],
-				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/owner'],
-				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/pet'],
-				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/walker'],
-				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/service'],
+				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/proveedores'],
+				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/propietarios'],
+				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/mascotas'],
+				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/servicios'],
+				['class' => 'yii\rest\UrlRule', 'controller' => 'v1/cuidadores'],
+
             ],
         ],
     ],

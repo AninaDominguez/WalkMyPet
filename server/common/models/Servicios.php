@@ -10,8 +10,9 @@ use Yii;
  * @property int $id
  * @property int $cuidador
  * @property int $mascota
- * @property string $Fecha
- * @property float $Duracion
+ * @property string $fecha
+ * @property float $duracion
+ * @property string $nombre
  *
  * @property Cuidadores $cuidador0
  * @property Mascotas $mascota0
@@ -32,10 +33,11 @@ class Servicios extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['cuidador', 'mascota', 'Fecha', 'Duracion'], 'required'],
+            [['cuidador', 'mascota', 'fecha', 'duracion', 'nombre'], 'required'],
             [['cuidador', 'mascota'], 'integer'],
-            [['Fecha'], 'safe'],
-            [['Duracion'], 'number'],
+            [['fecha'], 'safe'],
+            [['duracion'], 'number'],
+            [['nombre'], 'string', 'max' => 80],
             [['cuidador'], 'exist', 'skipOnError' => true, 'targetClass' => Cuidadores::className(), 'targetAttribute' => ['cuidador' => 'id']],
             [['mascota'], 'exist', 'skipOnError' => true, 'targetClass' => Mascotas::className(), 'targetAttribute' => ['mascota' => 'id']],
         ];
@@ -47,11 +49,12 @@ class Servicios extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('app', 'ID'),
-            'cuidador' => Yii::t('app', 'Cuidador'),
-            'mascota' => Yii::t('app', 'Mascota'),
-            'Fecha' => Yii::t('app', 'Fecha'),
-            'Duracion' => Yii::t('app', 'Duracion'),
+            'id' => 'ID',
+            'cuidador' => 'Cuidador',
+            'mascota' => 'Mascota',
+            'fecha' => 'Fecha',
+            'duracion' => 'Duracion',
+            'nombre' => 'Nombre',
         ];
     }
 
