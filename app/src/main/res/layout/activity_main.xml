@@ -8,6 +8,7 @@
     android:screenOrientation="portrait">
 
     <ImageView
+
         android:id="@+id/logoApp"
         android:layout_width="150dp"
         android:layout_height="150dp"
