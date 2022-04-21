@@ -18,6 +18,7 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     public void goBackToLogIn(View view){
+
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
 
