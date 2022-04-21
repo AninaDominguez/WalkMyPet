@@ -35,6 +35,7 @@
         app:layout_constraintBottom_toTopOf="@id/editTextPasswordLogin"
         android:importantForAutofill="no" />
 
+
     <EditText
         android:id="@+id/editTextPasswordLogin"
         android:layout_width="300dp"
@@ -60,7 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextEmailLogin"
         app:layout_constraintBottom_toTopOf="@id/contrasenaOlvidada" />
-
 
     <TextView
         android:id="@+id/contrasenaOlvidada"
