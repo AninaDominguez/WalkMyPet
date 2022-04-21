@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void goToRegister(View view){
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
+        
     }
 
 
