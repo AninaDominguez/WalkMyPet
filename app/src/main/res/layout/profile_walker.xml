@@ -8,10 +8,13 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -37,15 +40,18 @@
                         android:text="Mi perfil"
                         android:textSize="20dp"
                         android:layout_gravity="center"
-                        android:gravity="bottom"/>
+                        android:gravity="bottom"
+                        android:textColor="#fff"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textStyle="bold"
                         android:clickable="true"
                         android:text="Guardar"
                         android:textSize="14dp"
                         android:layout_gravity="right"
-                        android:layout_marginRight="20dp"/>
+                        android:layout_marginRight="20dp"
+                        android:textColor="#fff"/>
                     <ImageButton
                         android:layout_width="30dp"
                         android:layout_height="30dp"
@@ -208,28 +214,30 @@
             </LinearLayout>
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="5dp"
                 android:background="#ACACAC"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="5dp"
                 >
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="70dp"
-                    android:layout_weight="0.35"
-                    android:layout_marginHorizontal="15dp"
-                    android:text="Tarifas y Servicios" />
-
                 <Button
                     android:layout_width="0dp"
                     android:layout_weight="0.35"
-                    android:layout_height="70dp"
-                    android:layout_marginHorizontal="15dp"
-                    android:text="Disponibilidad"/>
+                    android:layout_height="wrap_content"
+                    android:text="Tarifas y Servicios"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="15dp"
+                    android:padding="20dp"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="0.35"
+                    android:layout_height="wrap_content"
+                    android:text="Disponibilidad"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="15dp"
+                    android:padding="20dp"/>
             </LinearLayout>
         </LinearLayout>
 
