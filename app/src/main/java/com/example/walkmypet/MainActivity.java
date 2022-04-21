@@ -28,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void login (View view) {
 
+        /* Hacer if diferenciando cuidador de dueño.
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
+                 */
+    }
 
 }
