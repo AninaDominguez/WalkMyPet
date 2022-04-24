@@ -1,0 +1,54 @@
+Message-ID: <3751bd1f5d58a64e7622cddb05b7c76e@www.walkmypet.local>
+Date: Sat, 02 Apr 2022 13:22:09 +0200
+Subject: Account registration at My Application
+From: My Application robot <support@example.com>
+To: admin@example.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1648898529_1ffc3f7bc7e7f7b5bfc5791fbc5aad92_=_"
+
+
+--_=_swift_1648898529_1ffc3f7bc7e7f7b5bfc5791fbc5aad92_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello admin,
+
+Follow the link below to verify your email:
+
+http://w=
+ww.walkmypet.local/site/verify-email?token=3DK14ih8BPZEojjmxyTiKopSWHpsHyd2=
+M__1648898529
+
+--_=_swift_1648898529_1ffc3f7bc7e7f7b5bfc5791fbc5aad92_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"verify-email">
+    <p>Hello admin,</p>
+
+    <p>Foll=
+ow the link below to verify your email:</p>
+
+    <p><a href=3D"http://w=
+ww.walkmypet.local/site/verify-email?token=3DK14ih8BPZEojjmxyTiKopSWHpsHyd2=
+M__1648898529">http://www.walkmypet.local/site/verify-email?token=3DK14ih8B=
+PZEojjmxyTiKopSWHpsHyd2M__1648898529</a></p>
+</div>
+    </body>
+</htm=
+l>
+
+
+--_=_swift_1648898529_1ffc3f7bc7e7f7b5bfc5791fbc5aad92_=_--

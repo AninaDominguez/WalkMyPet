@@ -1,0 +1,2247 @@
+2022-04-02 16:14:56 [127.0.0.1][-][-][warning][yii\web\User::renewAuthStatus] Invalid session auth key attempted for user '1' from 127.0.0.1: UYG5WQvhO9lswOke5PPFdf560NQrCWvy
+2022-04-02 16:14:56 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'deg0aunvi5laueogi9jl9tgke1'
+    '_identity-backend' => '4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '51b797c5ae575f77667a2e9b01fd16c73f8a5605df329c81f7ea15977df08443a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"P5LK7M00b5tfPH3sKA0leudAqLJO5Y9G\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.42'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=deg0aunvi5laueogi9jl9tgke1; _identity-backend=4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=51b797c5ae575f77667a2e9b01fd16c73f8a5605df329c81f7ea15977df08443a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22P5LK7M00b5tfPH3sKA0leudAqLJO5Y9G%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '50376'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1648908896.1324
+    'REQUEST_TIME' => 1648908896
+]
+2022-04-02 16:14:56 [127.0.0.1][-][-][warning][yii\web\User::renewAuthStatus] Invalid session auth key attempted for user '1' from 127.0.0.1: UYG5WQvhO9lswOke5PPFdf560NQrCWvy
+2022-04-02 16:14:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'deg0aunvi5laueogi9jl9tgke1'
+    '_identity-backend' => '4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '51b797c5ae575f77667a2e9b01fd16c73f8a5605df329c81f7ea15977df08443a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"P5LK7M00b5tfPH3sKA0leudAqLJO5Y9G\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.42'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=deg0aunvi5laueogi9jl9tgke1; _identity-backend=4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=51b797c5ae575f77667a2e9b01fd16c73f8a5605df329c81f7ea15977df08443a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22P5LK7M00b5tfPH3sKA0leudAqLJO5Y9G%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '50376'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1648908896.2301
+    'REQUEST_TIME' => 1648908896
+]
+2022-04-02 16:28:20 [127.0.0.1][-][-][warning][yii\web\User::renewAuthStatus] Invalid session auth key attempted for user '1' from 127.0.0.1: UYG5WQvhO9lswOke5PPFdf560NQrCWvy
+2022-04-02 16:28:20 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'deg0aunvi5laueogi9jl9tgke1'
+    '_identity-backend' => '4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '51b2f0b399c0a8fbbb3e053f5bb0779ba18ce8d76c84ce01d1dae62d01986a69a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CZU69C04pVv40bSOBdxIVPPSFaBvUsR0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.42'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=deg0aunvi5laueogi9jl9tgke1; _identity-backend=4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=51b2f0b399c0a8fbbb3e053f5bb0779ba18ce8d76c84ce01d1dae62d01986a69a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CZU69C04pVv40bSOBdxIVPPSFaBvUsR0%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '60705'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1648909700.1072
+    'REQUEST_TIME' => 1648909700
+]
+2022-04-02 16:28:20 [127.0.0.1][-][-][warning][yii\web\User::renewAuthStatus] Invalid session auth key attempted for user '1' from 127.0.0.1: UYG5WQvhO9lswOke5PPFdf560NQrCWvy
+2022-04-02 16:28:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'deg0aunvi5laueogi9jl9tgke1'
+    '_identity-backend' => '4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '51b2f0b399c0a8fbbb3e053f5bb0779ba18ce8d76c84ce01d1dae62d01986a69a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CZU69C04pVv40bSOBdxIVPPSFaBvUsR0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36 OPR/84.0.4316.42'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=deg0aunvi5laueogi9jl9tgke1; _identity-backend=4b0b448c9f67fcbf8f4f5537a59ce8dfe5c6239368f3462813213a6dbb72d7a2a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=51b2f0b399c0a8fbbb3e053f5bb0779ba18ce8d76c84ce01d1dae62d01986a69a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CZU69C04pVv40bSOBdxIVPPSFaBvUsR0%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '60705'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1648909700.1867
+    'REQUEST_TIME' => 1648909700
+]
+2022-04-02 17:56:35 [127.0.0.1][1][8p7ke2b2kb9ultbkiq1f6fkt7c][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "pets". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pets', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-02 17:56:35 [127.0.0.1][1][8p7ke2b2kb9ultbkiq1f6fkt7c][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '8p7ke2b2kb9ultbkiq1f6fkt7c'
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    '_csrf-backend' => 'ee9bf75f93964500392d00560c26a435734541fb999844561c6223ca423ca1dea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"FxCFWplWTDkBpY2B2FGOTTS040Yg4TMS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/index.php?r=site%2Flogin'
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=8p7ke2b2kb9ultbkiq1f6fkt7c; _identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; _csrf-backend=ee9bf75f93964500392d00560c26a435734541fb999844561c6223ca423ca1dea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22FxCFWplWTDkBpY2B2FGOTTS040Yg4TMS%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '52596'
+    'REDIRECT_URL' => '/pets'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pets'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1648914995.8955
+    'REQUEST_TIME' => 1648914995
+]
+2022-04-02 17:56:38 [127.0.0.1][1][8p7ke2b2kb9ultbkiq1f6fkt7c][error][TypeError] TypeError: Argument 2 passed to yii\base\View::{closure}() must be an instance of Pet, instance of common\models\Pet given in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\pet\index.php:37
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}('view', Object(common\models\Pet), 1, 0, Object(yii\grid\ActionColumn))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\ActionColumn.php(219): call_user_func(Object(Closure), 'view', Object(common\models\Pet), 1, 0, Object(yii\grid\ActionColumn))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\ActionColumn.php(245): yii\grid\ActionColumn->createUrl('view', Object(common\models\Pet), 1, 0)
+#3 [internal function]: yii\grid\ActionColumn->yii\grid\{closure}(Array)
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\ActionColumn.php(250): preg_replace_callback('/\\{([\\w\\-\\/]+)\\...', Object(Closure), '{view} {update}...')
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\ActionColumn->renderDataCellContent(Object(common\models\Pet), 1, 0)
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(common\models\Pet), 1, 0)
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow(Object(common\models\Pet), 1, 0)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#15 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Widget.php(146): yii\grid\GridView->run()
+#16 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\pet\index.php(39): yii\base\Widget::widget(Array)
+#17 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(347): require('C:\\Users\\Usuari...')
+#18 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#19 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\PetController))
+#20 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(backend\controllers\PetController))
+#21 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\PetController.php(46): yii\base\Controller->render('index', Array)
+#22 [internal function]: backend\controllers\PetController->actionIndex()
+#23 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#26 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pet', Array)
+#27 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2022-04-02 17:56:38 [127.0.0.1][1][8p7ke2b2kb9ultbkiq1f6fkt7c][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '8p7ke2b2kb9ultbkiq1f6fkt7c'
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    '_csrf-backend' => 'ee9bf75f93964500392d00560c26a435734541fb999844561c6223ca423ca1dea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"FxCFWplWTDkBpY2B2FGOTTS040Yg4TMS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/index.php?r=site%2Flogin'
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=8p7ke2b2kb9ultbkiq1f6fkt7c; _identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; _csrf-backend=ee9bf75f93964500392d00560c26a435734541fb999844561c6223ca423ca1dea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22FxCFWplWTDkBpY2B2FGOTTS040Yg4TMS%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '52596'
+    'REDIRECT_URL' => '/pet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pet'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1648914998.2316
+    'REQUEST_TIME' => 1648914998
+]
+2022-04-02 19:37:09 [127.0.0.1][1][8p7ke2b2kb9ultbkiq1f6fkt7c][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: es in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\common\components\languageSwitcher.php:35
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\common\components\languageSwitcher.php(35): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\Users\\Usuari...', 35, Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Widget.php(146): common\components\languageSwitcher->run()
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\layouts\main.php(62): yii\base\Widget::widget()
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(347): require('C:\\Users\\Usuari...')
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\ServiceController))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('<div class="ser...')
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\ServiceController.php(46): yii\base\Controller->render('index', Array)
+#8 [internal function]: backend\controllers\ServiceController->actionIndex()
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#12 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('service', Array)
+#13 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2022-04-02 19:37:09 [127.0.0.1][1][8p7ke2b2kb9ultbkiq1f6fkt7c][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '8p7ke2b2kb9ultbkiq1f6fkt7c'
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    '_csrf-backend' => 'ee9bf75f93964500392d00560c26a435734541fb999844561c6223ca423ca1dea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"FxCFWplWTDkBpY2B2FGOTTS040Yg4TMS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/index.php?r=site%2Flogin'
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/walker'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'advanced-backend=8p7ke2b2kb9ultbkiq1f6fkt7c; _identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; _csrf-backend=ee9bf75f93964500392d00560c26a435734541fb999844561c6223ca423ca1dea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22FxCFWplWTDkBpY2B2FGOTTS040Yg4TMS%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '52870'
+    'REDIRECT_URL' => '/service'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/service'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1648921029.7566
+    'REQUEST_TIME' => 1648921029
+]
+2022-04-05 15:56:32 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][error][ParseError] ParseError: syntax error, unexpected ')' in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\layouts\main.php:42
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\SiteController))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: backend\controllers\SiteController->actionIndex()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2022-04-05 15:56:32 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    'advanced-backend' => 'rbfvp9lq0psq7o7ja4lb6jh4rd'
+    '_csrf-backend' => '89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; advanced-backend=rbfvp9lq0psq7o7ja4lb6jh4rd; _csrf-backend=89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '65495'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1649166992.6449
+    'REQUEST_TIME' => 1649166992
+]
+2022-04-05 15:57:08 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][error][ParseError] ParseError: syntax error, unexpected ')' in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\layouts\main.php:42
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\SiteController))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: backend\controllers\SiteController->actionIndex()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2022-04-05 15:57:08 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    'advanced-backend' => 'rbfvp9lq0psq7o7ja4lb6jh4rd'
+    '_csrf-backend' => '89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; advanced-backend=rbfvp9lq0psq7o7ja4lb6jh4rd; _csrf-backend=89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '65508'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1649167028.0832
+    'REQUEST_TIME' => 1649167028
+]
+2022-04-05 15:57:44 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\layouts\main.php:42
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\SiteController))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: backend\controllers\SiteController->actionIndex()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2022-04-05 15:57:44 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    'advanced-backend' => 'rbfvp9lq0psq7o7ja4lb6jh4rd'
+    '_csrf-backend' => '89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; advanced-backend=rbfvp9lq0psq7o7ja4lb6jh4rd; _csrf-backend=89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '65523'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1649167064.4502
+    'REQUEST_TIME' => 1649167064
+]
+2022-04-05 16:00:33 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][error][ParseError] ParseError: syntax error, unexpected 'if' (T_IF) in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\layouts\main.php:47
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\SiteController))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: backend\controllers\SiteController->actionIndex()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2022-04-05 16:00:33 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    'advanced-backend' => 'rbfvp9lq0psq7o7ja4lb6jh4rd'
+    '_csrf-backend' => '89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; advanced-backend=rbfvp9lq0psq7o7ja4lb6jh4rd; _csrf-backend=89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '56902'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1649167233.6668
+    'REQUEST_TIME' => 1649167233
+]
+2022-04-05 16:00:42 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][error][ParseError] ParseError: syntax error, unexpected 'if' (T_IF) in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\layouts\main.php:47
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\SiteController))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: backend\controllers\SiteController->actionIndex()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2022-04-05 16:00:42 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    'advanced-backend' => 'rbfvp9lq0psq7o7ja4lb6jh4rd'
+    '_csrf-backend' => '89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; advanced-backend=rbfvp9lq0psq7o7ja4lb6jh4rd; _csrf-backend=89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '56907'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1649167242.4727
+    'REQUEST_TIME' => 1649167242
+]
+2022-04-05 16:03:05 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][error][ParseError] ParseError: syntax error, unexpected '<', expecting ']' in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\views\layouts\main.php:42
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\Usuari...', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\Users\\Usuari...', Array, Object(backend\controllers\SiteController))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: backend\controllers\SiteController->actionIndex()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2022-04-05 16:03:05 [127.0.0.1][1][rbfvp9lq0psq7o7ja4lb6jh4rd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    'advanced-backend' => 'rbfvp9lq0psq7o7ja4lb6jh4rd'
+    '_csrf-backend' => '89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'QkveubtUdD5NvjVlhUVSZboqy4wS7BHw'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; advanced-backend=rbfvp9lq0psq7o7ja4lb6jh4rd; _csrf-backend=89d09d39cdbfb721645a34c9c5e2a9b91daa9d0e24e1947dfc694152e54cf0a8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22q60KFK6G0ixRkFFl-EZdkZDDm3Nxxgvy%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.24'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '56939'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1649167385.1926
+    'REQUEST_TIME' => 1649167385
+]
+2022-04-18 20:34:56 [127.0.0.1][-][-][warning][yii\web\User::getIdentityAndDurationFromCookie] Invalid cookie auth key attempted for user '1' from 127.0.0.1: QkveubtUdD5NvjVlhUVSZboqy4wS7BHw
+2022-04-18 20:34:56 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => 'd9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"QkveubtUdD5NvjVlhUVSZboqy4wS7BHw\",2592000]\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=d9b233f4f37ae6b25d8be73ca7517aaa567d05213b8066e61eba1b0349584e5ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22QkveubtUdD5NvjVlhUVSZboqy4wS7BHw%22%2C2592000%5D%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '59248'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650306896.017
+    'REQUEST_TIME' => 1650306896
+]
+2022-04-19 20:55:40 [127.0.0.1][1][apdm4fl86rt3uive3h555dhokf][error][Error] Error: Class "common\models\PetSearch" not found in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\PetController.php:41
+Stack trace:
+#0 [internal function]: backend\controllers\PetController->actionIndex()
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pet', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2022-04-19 20:55:40 [127.0.0.1][1][apdm4fl86rt3uive3h555dhokf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    'advanced-backend' => 'apdm4fl86rt3uive3h555dhokf'
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '72e606fe1b3e263167753c53ec5df9a98eafddb9f39424f7de970cc2ec16f93ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"r1V4AGvYG9haDJuk-H1wgCvJ7SNY-n6K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; advanced-backend=apdm4fl86rt3uive3h555dhokf; _identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=72e606fe1b3e263167753c53ec5df9a98eafddb9f39424f7de970cc2ec16f93ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22r1V4AGvYG9haDJuk-H1wgCvJ7SNY-n6K%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '61181'
+    'REDIRECT_URL' => '/pet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pet'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650394540.8497
+    'REQUEST_TIME' => 1650394540
+]
+2022-04-19 20:55:45 [127.0.0.1][1][apdm4fl86rt3uive3h555dhokf][error][Error] Error: Class "common\models\WalkerSearch" not found in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\WalkerController.php:41
+Stack trace:
+#0 [internal function]: backend\controllers\WalkerController->actionIndex()
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('walker', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2022-04-19 20:55:45 [127.0.0.1][1][apdm4fl86rt3uive3h555dhokf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    'advanced-backend' => 'apdm4fl86rt3uive3h555dhokf'
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '72e606fe1b3e263167753c53ec5df9a98eafddb9f39424f7de970cc2ec16f93ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"r1V4AGvYG9haDJuk-H1wgCvJ7SNY-n6K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; advanced-backend=apdm4fl86rt3uive3h555dhokf; _identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=72e606fe1b3e263167753c53ec5df9a98eafddb9f39424f7de970cc2ec16f93ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22r1V4AGvYG9haDJuk-H1wgCvJ7SNY-n6K%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '61182'
+    'REDIRECT_URL' => '/walker'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/walker'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650394545.2102
+    'REQUEST_TIME' => 1650394545
+]
+2022-04-24 10:58:44 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'backend\controllers\ServiceController' in file: C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server/backend/controllers/ServiceController.php. Namespace missing? in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(661): class_exists('backend\\control...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('service')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('')
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('service/', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2022-04-24 10:58:44 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57279'
+    'REDIRECT_URL' => '/service/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/service/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790724.3195
+    'REQUEST_TIME' => 1650790724
+]
+2022-04-24 10:58:52 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'backend\controllers\ServiceController' in file: C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server/backend/controllers/ServiceController.php. Namespace missing? in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(661): class_exists('backend\\control...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('service')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('')
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('service/', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2022-04-24 10:58:52 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57283'
+    'REDIRECT_URL' => '/service/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/service/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790732.7829
+    'REQUEST_TIME' => 1650790732
+]
+2022-04-24 10:58:56 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'backend\controllers\ServiceController' in file: C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server/backend/controllers/ServiceController.php. Namespace missing? in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(661): class_exists('backend\\control...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('service')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('')
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('service/', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2022-04-24 10:58:55 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57284'
+    'REDIRECT_URL' => '/service/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/service/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790735.9522
+    'REQUEST_TIME' => 1650790735
+]
+2022-04-24 10:59:07 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "pet". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('pet', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-24 10:59:07 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'd87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=d87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57287'
+    'REDIRECT_URL' => '/pet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pet'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790747.5192
+    'REQUEST_TIME' => 1650790747
+]
+2022-04-24 10:59:08 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "walker". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('walker', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-24 10:59:08 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'd87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/pet'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=d87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57287'
+    'REDIRECT_URL' => '/walker'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/walker'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790748.3674
+    'REQUEST_TIME' => 1650790748
+]
+2022-04-24 10:59:11 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'backend\controllers\ServiceController' in file: C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server/backend/controllers/ServiceController.php. Namespace missing? in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(661): class_exists('backend\\control...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('service')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('')
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('service', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2022-04-24 10:59:11 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'd87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/walker'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=d87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57287'
+    'REDIRECT_URL' => '/service'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/service'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790750.9933
+    'REQUEST_TIME' => 1650790750
+]
+2022-04-24 10:59:12 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "walker". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('walker', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-24 10:59:12 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'd87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/pet'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=d87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57298'
+    'REDIRECT_URL' => '/walker'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/walker'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790752.0653
+    'REQUEST_TIME' => 1650790752
+]
+2022-04-24 10:59:13 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "owner". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-24 10:59:13 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'd87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/walker'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=d87a600c5cb480ec2ddda2f784513d3c2eb8d9aa3b61bbc97d0747d69d5501e9a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57298'
+    'REDIRECT_URL' => '/owner'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/owner'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790753.1776
+    'REQUEST_TIME' => 1650790753
+]
+2022-04-24 10:59:15 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "owner". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-24 10:59:15 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/owner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57298'
+    'REDIRECT_URL' => '/owner'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/owner'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790755.677
+    'REQUEST_TIME' => 1650790755
+]
+2022-04-24 10:59:17 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'backend\controllers\ServiceController' in file: C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server/backend/controllers/ServiceController.php. Namespace missing? in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(661): class_exists('backend\\control...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('service')
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('')
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('service', Array)
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2022-04-24 10:59:17 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/owner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57298'
+    'REDIRECT_URL' => '/service'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/service'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790757.1564
+    'REQUEST_TIME' => 1650790757
+]
+2022-04-24 10:59:18 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "owner". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-24 10:59:18 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/owner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57304'
+    'REDIRECT_URL' => '/owner'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/owner'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790758.9096
+    'REQUEST_TIME' => 1650790758
+]
+2022-04-24 10:59:19 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "owner". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-04-24 10:59:19 [127.0.0.1][1][bmn4cueq4fmo1k8n9t6u7figck][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-backend' => 'bmn4cueq4fmo1k8n9t6u7figck'
+    '_csrf-backend' => 'a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9\";}'
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/owner'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-backend=bmn4cueq4fmo1k8n9t6u7figck; _csrf-backend=a797e1bb0abddd4e662f2f888bc4894685cdc9105c19df2f40f9e5fd7b9a1640a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bJ4fll9tGjZmaL2cZEr0xcSjVpTJznv9%22%3B%7D; language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57304'
+    'REDIRECT_URL' => '/owner'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/owner'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1650790759.6366
+    'REQUEST_TIME' => 1650790759
+]
