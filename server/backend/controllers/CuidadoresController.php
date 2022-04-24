@@ -2,16 +2,16 @@
 
 namespace backend\controllers;
 
-use common\models\Pet;
-use common\models\PetSearch;
+use common\models\Cuidadores;
+use common\models\CuidadoresSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * PetController implements the CRUD actions for Pet model.
+ * WalkerController implements the CRUD actions for Walker model.
  */
-class PetController extends Controller
+class CuidadoresController extends Controller
 {
     /**
      * @inheritDoc
@@ -32,13 +32,13 @@ class PetController extends Controller
     }
 
     /**
-     * Lists all Pet models.
+     * Lists all Walker models.
      *
      * @return string
      */
     public function actionIndex()
     {
-        $searchModel = new PetSearch();
+        $searchModel = new CuidadoresSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [
@@ -48,7 +48,7 @@ class PetController extends Controller
     }
 
     /**
-     * Displays a single Pet model.
+     * Displays a single Walker model.
      * @param int $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
@@ -61,13 +61,13 @@ class PetController extends Controller
     }
 
     /**
-     * Creates a new Pet model.
+     * Creates a new Walker model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
     public function actionCreate()
     {
-        $model = new Pet();
+        $model = new Cuidadores();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
@@ -83,7 +83,7 @@ class PetController extends Controller
     }
 
     /**
-     * Updates an existing Pet model.
+     * Updates an existing Walker model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param int $id ID
      * @return string|\yii\web\Response
@@ -103,7 +103,7 @@ class PetController extends Controller
     }
 
     /**
-     * Deletes an existing Pet model.
+     * Deletes an existing Walker model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param int $id ID
      * @return \yii\web\Response
@@ -117,15 +117,15 @@ class PetController extends Controller
     }
 
     /**
-     * Finds the Pet model based on its primary key value.
+     * Finds the Walker model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param int $id ID
-     * @return Pet the loaded model
+     * @return Walker the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Pet::findOne(['id' => $id])) !== null) {
+        if (($model = Cuidadores::findOne(['id' => $id])) !== null) {
             return $model;
         }
 

@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use common\models\Service;
-use common\models\ServiceSearch;
+use common\models\Servicios;
+use common\models\ServiciosSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -11,7 +11,7 @@ use yii\filters\VerbFilter;
 /**
  * ServiceController implements the CRUD actions for Service model.
  */
-class ServiceController extends Controller
+class ServiciosController extends Controller
 {
     /**
      * @inheritDoc
@@ -38,7 +38,7 @@ class ServiceController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new ServiceSearch();
+        $searchModel = new ServiciosSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [
@@ -67,7 +67,7 @@ class ServiceController extends Controller
      */
     public function actionCreate()
     {
-        $model = new Service();
+        $model = new Servicios();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
@@ -125,7 +125,7 @@ class ServiceController extends Controller
      */
     protected function findModel($id)
     {
-        if (($model = Service::findOne(['id' => $id])) !== null) {
+        if (($model = Servicios::findOne(['id' => $id])) !== null) {
             return $model;
         }
 

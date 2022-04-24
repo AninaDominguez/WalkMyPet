@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use common\models\Owner;
-use common\models\OwnerSearch;
+use common\models\Propietarios;
+use common\models\PropietariosSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -11,7 +11,7 @@ use yii\filters\VerbFilter;
 /**
  * OwnerController implements the CRUD actions for Owner model.
  */
-class OwnerController extends Controller
+class PropietariosController extends Controller
 {
     /**
      * @inheritDoc
@@ -38,7 +38,7 @@ class OwnerController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new OwnerSearch();
+        $searchModel = new PropietariosSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
 
         return $this->render('index', [
@@ -67,7 +67,7 @@ class OwnerController extends Controller
      */
     public function actionCreate()
     {
-        $model = new Owner();
+        $model = new Propietarios();
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
@@ -125,7 +125,7 @@ class OwnerController extends Controller
      */
     protected function findModel($id)
     {
-        if (($model = Owner::findOne(['id' => $id])) !== null) {
+        if (($model = Propietarios::findOne(['id' => $id])) !== null) {
             return $model;
         }
 
