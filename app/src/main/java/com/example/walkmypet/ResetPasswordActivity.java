@@ -24,3 +24,4 @@ public class ResetPasswordActivity extends AppCompatActivity {
 
     //Cami: fslta implementar en el boton enviar contraseña el envio del correo.
 }
+
