@@ -37,7 +37,6 @@ public class AddService extends AppCompatActivity {
 
         anadirServicioButton = findViewById(R.id.anadirServicioButton);
         atrasButton = findViewById(R.id.atrasButton);
- //Hoooola
 
 
 
@@ -72,8 +71,6 @@ public class AddService extends AppCompatActivity {
     public void goToBack(View view){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
-
-
     }
 
 }
