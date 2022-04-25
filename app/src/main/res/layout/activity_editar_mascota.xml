@@ -8,6 +8,7 @@
 
     <Button
         android:id="@+id/button2"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -20,6 +21,7 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"

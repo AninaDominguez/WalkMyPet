@@ -36,17 +36,19 @@
         android:orientation="horizontal"
         android:layout_marginTop="20dp">
 
-    <Button
-        android:layout_width="250px"
-        android:layout_height="250px"
-        android:layout_marginLeft="70dp"
-        android:text="SI"/>
+        <Button
+            style="@style/ButtonTheme.WalkMyPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="SI" />
 
         <Button
-            android:text="NO"
+            style="@style/ButtonTheme.WalkMyPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
-            android:layout_width="250px"
-            android:layout_height="250px"/>
+            android:text="NO" />
 
     </LinearLayout>
 </LinearLayout>

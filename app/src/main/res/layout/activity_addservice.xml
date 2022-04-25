@@ -17,17 +17,18 @@
         android:src="@drawable/iconoperfil"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
     <TextView
         android:id="@+id/perfilTextViewTV"
+        style="BUTTO"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/PerfilImageButttonIB"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:text="Perfil"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        />
+        android:text="Perfil"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PerfilImageButttonIB" />
 
     <ImageButton
         android:onClick="goToBack"
@@ -66,24 +67,24 @@
 
     <Button
         android:id="@+id/anadirServicioButton"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/serviciosListViewLV"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="20dp"
         android:text="Añadir Servicio"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serviciosListViewLV" />
 
     <Button
         android:id="@+id/atrasButton"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/anadirServicioButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="5dp"
         android:text="Atrás"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anadirServicioButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

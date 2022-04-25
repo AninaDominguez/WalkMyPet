@@ -17,5 +17,6 @@
     </style>
     <style name="ButtonTheme.WalkMyPet" parent="Widget.MaterialComponents.Button">
         <item name="android:fontFamily">sans-serif-condensed-medium</item>
+
     </style>
 </resources>

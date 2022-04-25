@@ -61,9 +61,10 @@
         android:text="MIS MASCOTAS" />
 
     <Button
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="160dp"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="100dp"
-        android:text="VOLVER"
-        android:layout_height="50dp"/>
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:text="VOLVER" />
 </LinearLayout>

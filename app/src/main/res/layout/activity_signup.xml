@@ -83,20 +83,22 @@
 
     <Button
         android:id="@+id/registroButton"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="REGISTRARME"
+        app:layout_constraintBottom_toTopOf="@id/atrasButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/atrasButton"
         app:layout_constraintTop_toBottomOf="@id/radioGroup" />
 
     <Button
         android:id="@+id/atrasButton"
-        android:onClick="goBackToLogIn"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="goBackToLogIn"
         android:text="ATRÁS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

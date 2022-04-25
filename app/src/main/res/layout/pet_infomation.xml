@@ -34,12 +34,38 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Información mascota"
-                        android:textSize="20dp"
+                        android:text="INFO MASCOTA"
+                        android:textStyle="bold"
                         android:layout_gravity="center"
                         android:gravity="bottom"
                         android:textColor="#fff"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Guardar"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="right"/>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:clickable="true"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/profile"
+                        />
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/exit"
+                        />
+
                 </androidx.appcompat.widget.Toolbar>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -173,16 +199,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
                 android:background="#ACACAC"/>
+
             <Button
+                style="@style/ButtonTheme.WalkMyPet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:clickable="true"
-                android:text="Save"
                 android:layout_gravity="center"
-                android:layout_marginRight="8dp"
                 android:layout_marginVertical="20dp"
-                android:textColor="#fff"/>
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:text="Save"/>
 
         </LinearLayout>
 

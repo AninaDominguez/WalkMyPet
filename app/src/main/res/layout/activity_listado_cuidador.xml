@@ -6,99 +6,85 @@
     android:layout_height="match_parent"
     tools:context=".ListadoCuidadorActivity">
 
-    <TextView
-        android:id="@+id/salirTextViewTV2"
-        android:layout_width="100dp"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="20dp"
-        android:gravity="center"
-        android:text="Salir"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SalirImageButtonIB" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorSecondary">
 
-    <ImageButton
-        android:id="@+id/perfilImageButttonIB"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="20dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="16dp"
-        android:onClick="goToMyProfile"
-        android:scaleType="fitCenter"
-        android:src="@drawable/iconoperfil"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:onClick="goToMyProfile"
+            android:id="@+id/perfilImageButttonIB"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/profile"
+            />
 
-    <TextView
-        android:id="@+id/perfilTextViewTV2"
-        android:layout_width="100dp"
+        <ImageButton
+            android:onClick="goToBack"
+            android:id="@+id/salirImageButtonIB2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/exit"
+            />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchVw"
+            android:layout_width="160dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:queryHint="Buscar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/white"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/searchButton"
+        style="@style/ButtonTheme.WalkMyPet"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
-        android:text="Perfil"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PerfilImageButttonIB" />
-
-    <ImageButton
-        android:id="@+id/salirImageButtonIB2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_margin="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:onClick="goToBack"
-        android:scaleType="centerCrop"
-        android:src="@android:drawable/ic_menu_revert"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <SearchView
-        android:id="@+id/searchVw"
-        android:layout_width="160dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="65dp"
-        android:queryHint="Buscar"
+        android:layout_marginTop="50dp"
+        android:text="Buscar"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recivlerVwCuidador"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="210dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchVw" />
-
-    <Button
-        android:id="@+id/searchButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="156dp"
-        android:text="Buscar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchVw" />
+        app:layout_constraintTop_toBottomOf="@+id/searchButton"
+        app:layout_constraintBottom_toTopOf="@id/back"/>
 
     <Button
         android:id="@+id/back"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Atras"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recivlerVwCuidador" />
 </androidx.constraintlayout.widget.ConstraintLayout>
