@@ -1,5 +1,6 @@
 package com.example.walkmypet;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,11 +11,23 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class MainActivity extends AppCompatActivity {
 
 
 
 EditText userLogin, passwordLogin;
+Button btnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +38,14 @@ EditText userLogin, passwordLogin;
 
         userLogin = findViewById(R.id.editTextEmailLogin);
         passwordLogin = findViewById(R.id.editTextPasswordLogin);
+        btnLogin = findViewById(R.id.entrarButton);
 
-
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ValidarUsuario("http://192.168.1.48/v1/propietarios");
+            }
+        });
 
     }
 
@@ -35,11 +54,10 @@ EditText userLogin, passwordLogin;
         startActivity(intent);
 
     }
+/*    public void login (View view) {
 
-    public void login (View view) {
+        Verificacion user y password, se cambia cuando la bbdd este implementada llamando a los metodos necesarios.
 
-        //Verificacion user y password, se cambia cuando la bbdd este implementada llamando a los metodos necesarios.
-/*
         String user = userLogin.getText().toString();
         String password = passwordLogin.getText().toString();
 
@@ -56,20 +74,46 @@ EditText userLogin, passwordLogin;
         } else {
             Intent intentLoginCuidador = new Intent(this, SignUpActivity.class);
             startActivity(intentLoginCuidador);
-        } */
+        }
 
-    }
-
+    }*/
     //Intent a recuperar contraseña
     public void forgottenPassword (View view) {
             Toast.makeText(getApplicationContext(), "Forgotten password", Toast.LENGTH_LONG)
                     .show();
         Intent intentPassword = new Intent(this, ResetPasswordActivity.class);
         startActivity(intentPassword);
-
-
-
     }
 
+    public  void ValidarUsuario (String URL){
+        StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                if (!response.isEmpty()){
+                    Intent intent= new Intent(getApplicationContext(),SignUpActivity.class);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(MainActivity.this, "Usuario o contraseña incorrecta",Toast.LENGTH_SHORT).show();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(MainActivity.this,error.toString(),Toast.LENGTH_SHORT).show();
+            }
+        }){
+            @Nullable
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> parametros=new HashMap<String,String>();
+                parametros.put("Nombre",userLogin.getText().toString());
+                parametros.put("password",passwordLogin.getText().toString());
+                return parametros;
+            }
+        };
+        RequestQueue requestQueue= Volley.newRequestQueue(this);
+        requestQueue.add(stringRequest);
+
+    }
 
 }

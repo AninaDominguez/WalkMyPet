@@ -9,6 +9,7 @@ use Yii;
  *
  * @property int $id
  * @property string $Nombre
+ * @property string $password
  *
  * @property Mascotas[] $mascotas
  */
@@ -28,8 +29,9 @@ class Propietarios extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Nombre'], 'required'],
+            [['Nombre', 'password'], 'required'],
             [['Nombre'], 'string', 'max' => 120],
+            [['password'], 'string', 'max' => 20],
         ];
     }
 
@@ -39,8 +41,9 @@ class Propietarios extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('app', 'ID'),
-            'Nombre' => Yii::t('app', 'Nombre'),
+            'id' => 'ID',
+            'Nombre' => 'Nombre',
+            'password' => 'Password',
         ];
     }
 
