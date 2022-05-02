@@ -20,6 +20,9 @@
         </activity>
         <activity android:name=".SignUpActivity"/>
         <activity android:name=".ResetPasswordActivity"/>
+        <activity android:name=".LocalizacionActivity"/>
+        <activity android:name=".Propietario"/>
+
     </application>
 
 </manifest>

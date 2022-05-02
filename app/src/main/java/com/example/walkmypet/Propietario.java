@@ -1,8 +1,10 @@
 package com.example.walkmypet;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
-public class Propietario {
+public class Propietario extends AppCompatActivity {
 
     //Clase propietario, con sus mascotas en Array
     String name;
