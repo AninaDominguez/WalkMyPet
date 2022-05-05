@@ -22,6 +22,9 @@
         <activity android:name=".ResetPasswordActivity"/>
         <activity android:name=".LocalizacionActivity"/>
         <activity android:name=".Propietario"/>
+        <activity android:name=".CancelarActivity"/>
+        <activity android:name=".ListadoCuidadorActivity"/>
+        <activity android:name=".DatosCuidadorActivity"/>
 
     </application>
 
