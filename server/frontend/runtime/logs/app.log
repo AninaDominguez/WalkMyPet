@@ -557,3 +557,86 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1650790704.8183
     'REQUEST_TIME' => 1650790704
 ]
+2022-05-05 17:10:02 [127.0.0.1][1][k4he0qf6bi88kmpdgk7sggf2gt][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "es/index.html". in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('es/index.html', Array)
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-05-05 17:10:02 [127.0.0.1][1][k4he0qf6bi88kmpdgk7sggf2gt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    '_identity-frontend' => 'd67bec49266191cb0cb0d86f3811f0a65a3f452f9eba8376a4a50bcf12afe515a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    'advanced-frontend' => 'k4he0qf6bi88kmpdgk7sggf2gt'
+    '_csrf-frontend' => '873810376771b071054537f4a28f52ba1edfef1531367d88cc181e80a402b29ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"yP1N86CCQ6GV4Q88v06grsTQXGLwsQAn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; _identity-frontend=d67bec49266191cb0cb0d86f3811f0a65a3f452f9eba8376a4a50bcf12afe515a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; advanced-frontend=k4he0qf6bi88kmpdgk7sggf2gt; _csrf-frontend=873810376771b071054537f4a28f52ba1edfef1531367d88cc181e80a402b29ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22yP1N86CCQ6GV4Q88v06grsTQXGLwsQAn%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at www.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'www.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/frontend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/frontend/web/index.php'
+    'REMOTE_PORT' => '61759'
+    'REDIRECT_URL' => '/es/index.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/es/index.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1651763402.2123
+    'REQUEST_TIME' => 1651763402
+]

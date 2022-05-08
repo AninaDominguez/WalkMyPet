@@ -4,7 +4,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=walkmypet',
+            'dsn' => 'mysql:host=sql207.epizy.com;dbname=epiz_31132729_WalkMyPet',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',

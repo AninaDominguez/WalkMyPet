@@ -3,6 +3,7 @@ package com.example.walkmypet;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 EditText userLogin, passwordLogin;
 Button btnLogin;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -40,13 +42,13 @@ Button btnLogin;
         passwordLogin = findViewById(R.id.editTextPasswordLogin);
         btnLogin = findViewById(R.id.entrarButton);
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ValidarUsuario("http://192.168.1.48/v1/propietarios");
+                ValidarUsuario("http://192.168.1.48/walkmypet/developeru/validar_usuario.php");
             }
         });
-
+        //http://192.168.1.48/v1/auth/login
     }
 
     public void goToRegister(View view){
@@ -86,33 +88,88 @@ Button btnLogin;
     }
 
     public  void ValidarUsuario (String URL){
-        StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
+
+       final ProgressDialog progressDialog= new ProgressDialog(this);
+            progressDialog.setMessage("Espere por favor");
+            progressDialog.show();
+
+            userLogin.getText().toString().trim();
+            passwordLogin.getText().toString().trim();
+
+       StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 if (!response.isEmpty()){
                     Intent intent= new Intent(getApplicationContext(),SignUpActivity.class);
                     startActivity(intent);
-                }else{
-                    Toast.makeText(MainActivity.this, "Usuario o contraseña incorrecta",Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Usuario o contraseña incorrecta",Toast.LENGTH_SHORT).show();
                 }
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(MainActivity.this,error.toString(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),error.toString(),Toast.LENGTH_SHORT).show();
             }
         }){
             @Nullable
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> parametros=new HashMap<String,String>();
-                parametros.put("Nombre",userLogin.getText().toString());
-                parametros.put("password",passwordLogin.getText().toString());
+                parametros.put("nombre",userLogin.getText().toString());
+                parametros.put("Password",passwordLogin.getText().toString());
                 return parametros;
             }
         };
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
+
+        /*if (userLogin.getText().toString().equals("")){
+            Toast.makeText(this, "Ingrese Usuario", Toast.LENGTH_SHORT).show();
+        }else if (passwordLogin.getText().toString().equals("")){
+            Toast.makeText(this, "Ingrese Contraseña", Toast.LENGTH_SHORT).show();
+        }else{
+            final ProgressDialog progressDialog= new ProgressDialog(this);
+            progressDialog.setMessage("Espere por favor");
+            progressDialog.show();
+
+            userLogin.getText().toString().trim();
+            passwordLogin.getText().toString().trim();
+
+            StringRequest request = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    progressDialog.dismiss();
+
+                    if (response.equalsIgnoreCase("Ingreso correcto")) {
+                        userLogin.setText("");
+                        passwordLogin.setText("");
+                        Intent intent= new Intent(getApplicationContext(),SignUpActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(MainActivity.this,response, Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    progressDialog.dismiss();
+                    Toast.makeText(MainActivity.this,error.getMessage().toString() , Toast.LENGTH_SHORT).show();
+                }
+            }){
+                @Nullable
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    Map<String,String> params= new HashMap<>();
+                    params.put("Nombre",userLogin.getText().toString());
+                    params.put("password",passwordLogin.getText().toString());
+                    return params;
+                }
+            };
+            RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
+            requestQueue.add(request);
+        }*/
 
     }
 
