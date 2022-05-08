@@ -43,7 +43,7 @@ Button btnLogin;
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ValidarUsuario("http://192.168.1.48/v1/propietarios");
+                ValidarUsuario("http://192.168.1.48/walkmypet/developeru/validar_usuario.php");
             }
         });
 
@@ -106,8 +106,8 @@ Button btnLogin;
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> parametros=new HashMap<String,String>();
-                parametros.put("Nombre",userLogin.getText().toString());
-                parametros.put("password",passwordLogin.getText().toString());
+                parametros.put("nombre",userLogin.getText().toString());
+                parametros.put("Password",passwordLogin.getText().toString());
                 return parametros;
             }
         };
