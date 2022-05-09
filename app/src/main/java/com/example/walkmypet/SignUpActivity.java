@@ -24,7 +24,7 @@ import java.util.Map;
 
 
 public class SignUpActivity extends AppCompatActivity {
-    EditText edtEmail,edtPassword;
+    EditText edtNombre,edtPassword;
     Button btnRegister;
 
     @Override
@@ -32,14 +32,15 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        edtEmail = findViewById(R.id.editTextEmailLogin);
-        edtPassword = findViewById(R.id.editTextPasswordLogin);
+        edtNombre = findViewById(R.id.editTextEmailRegistro);
+        edtPassword = findViewById(R.id.editTextEmailRegistro);
         btnRegister = findViewById(R.id.registroButton);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                crearPropietario("http://192.168.1.48/v1/propietarios");
+                insertarDatosPropietario();
+               // crearPropietario("http://192.168.1.48/v1/propietarios");
             }
         });
     }
@@ -50,7 +51,63 @@ public class SignUpActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public  void crearPropietario (String URL) {
+    private void insertarDatosPropietario(){
+        final String nombre = edtNombre.getText().toString().trim();
+        final String Password=edtPassword.getText().toString().trim();
+
+        final ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Espere por favor");
+
+        if (nombre.isEmpty()){
+            edtNombre.setError("Complete los campos");
+            return;
+        }else if (Password.isEmpty()){
+            edtPassword.setError("Complete los campos");
+            return;
+        }else{
+            progressDialog.show();
+            StringRequest request= new StringRequest(Request.Method.POST,"http://192.168.1.48/walkmypet/developeru/insertar_propietario.php", new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    if (response.equalsIgnoreCase("registro correctamente")) {
+                        Toast.makeText(SignUpActivity.this, "datos insertados", Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                        Intent intent = new Intent(SignUpActivity.this,MainActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(SignUpActivity.this, response, Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                        Toast.makeText(SignUpActivity.this, "No se pudo insertar", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                  Toast.makeText(SignUpActivity.this,error.getMessage(),Toast.LENGTH_SHORT).show();
+                  progressDialog.dismiss();
+                }
+            }){
+                @Nullable
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    Map<String, String> parametros = new HashMap<>();
+                    parametros.put("nombre", nombre);
+                    parametros.put("Password", Password);
+                    return parametros;
+                }
+            };
+            RequestQueue requestQueue = Volley.newRequestQueue(SignUpActivity.this);
+            requestQueue.add(request);
+        }
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
+    /* public  void crearPropietario (String URL) {
 
         final ProgressDialog progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Espere por favor");
@@ -86,5 +143,5 @@ public class SignUpActivity extends AppCompatActivity {
         };
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
-    }
+    }*/
 }

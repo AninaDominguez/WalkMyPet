@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
 EditText userLogin, passwordLogin;
 Button btnLogin;
-
+String usuario,password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -43,7 +43,14 @@ Button btnLogin;
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ValidarUsuario("http://192.168.1.48/walkmypet/developeru/validar_usuario.php");
+                usuario=userLogin.getText().toString();
+                password=passwordLogin.getText().toString();
+                if(!usuario.isEmpty() && !password.isEmpty()){
+                    ValidarUsuario("http://192.168.1.48/walkmypet/developeru/validar_usuario.php");
+                }else{
+                    Toast.makeText(MainActivity.this, "No se permite campos vacíos", Toast.LENGTH_SHORT).show();
+                }
+                //En esta parte del código lo que hace es mirar que los campos no esten vacíos, si estan rellenados ya esten bien o mal pasará por validar usuario de lo contrario aparecerá un mensaje.
             }
         });
 
@@ -93,7 +100,7 @@ Button btnLogin;
                     Intent intent= new Intent(getApplicationContext(),Propietario.class);
                     startActivity(intent);
                 }else{
-                    Toast.makeText(MainActivity.this, "Usuario o contraseña incorrecta",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Usuario o contraseña incorrectos",Toast.LENGTH_SHORT).show();
                 }
             }
         }, new Response.ErrorListener() {
