@@ -33,7 +33,7 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
 
         edtNombre = findViewById(R.id.editTextEmailRegistro);
-        edtPassword = findViewById(R.id.editTextEmailRegistro);
+        edtPassword = findViewById(R.id.editTextPasswordRegistro);
         btnRegister = findViewById(R.id.registroButton);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
