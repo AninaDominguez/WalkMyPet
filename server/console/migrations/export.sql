@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-04-2022 a las 21:59:26
+-- Tiempo de generación: 07-05-2022 a las 19:47:22
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.4
 
@@ -14,8 +14,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `walkmypet`
 --
-CREATE DATABASE IF NOT EXISTS `walkmypet` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `walkmypet`;
 
 -- --------------------------------------------------------
 
@@ -23,20 +21,22 @@ USE `walkmypet`;
 -- Estructura de tabla para la tabla `cuidadores`
 --
 
-DROP TABLE IF EXISTS `cuidadores`;
 CREATE TABLE `cuidadores` (
   `id` int(11) NOT NULL,
-  `Nombre` varchar(120) NOT NULL
+  `Nombre` varchar(120) NOT NULL,
+  `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `cuidadores`
 --
 
-INSERT INTO `cuidadores` (`id`, `Nombre`) VALUES
-(1, 'Hector'),
-(2, 'Arianna'),
-(4, 'Andrés');
+INSERT INTO `cuidadores` (`id`, `Nombre`, `password`) VALUES
+(1, 'Hector', ''),
+(2, 'Arianna', ''),
+(4, 'Andrés', ''),
+(5, 'Mistify', ''),
+(6, 'dfsr', '');
 
 -- --------------------------------------------------------
 
@@ -44,7 +44,6 @@ INSERT INTO `cuidadores` (`id`, `Nombre`) VALUES
 -- Estructura de tabla para la tabla `mascotas`
 --
 
-DROP TABLE IF EXISTS `mascotas`;
 CREATE TABLE `mascotas` (
   `id` int(11) NOT NULL,
   `propietario` int(11) NOT NULL,
@@ -58,7 +57,8 @@ CREATE TABLE `mascotas` (
 INSERT INTO `mascotas` (`id`, `propietario`, `Nombre`) VALUES
 (2, 1, 'Lana'),
 (3, 3, 'Mimi'),
-(4, 2, 'Kira');
+(4, 2, 'Kira'),
+(5, 2, 'Ted');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,6 @@ INSERT INTO `mascotas` (`id`, `propietario`, `Nombre`) VALUES
 -- Estructura de tabla para la tabla `migration`
 --
 
-DROP TABLE IF EXISTS `migration`;
 CREATE TABLE `migration` (
   `version` varchar(180) NOT NULL,
   `apply_time` int(11) DEFAULT NULL
@@ -87,7 +86,6 @@ INSERT INTO `migration` (`version`, `apply_time`) VALUES
 -- Estructura de tabla para la tabla `paises`
 --
 
-DROP TABLE IF EXISTS `paises`;
 CREATE TABLE `paises` (
   `id` int(11) NOT NULL,
   `Codigo` varchar(2) NOT NULL,
@@ -346,41 +344,22 @@ INSERT INTO `paises` (`id`, `Codigo`, `Nombre`) VALUES
 -- Estructura de tabla para la tabla `propietarios`
 --
 
-DROP TABLE IF EXISTS `propietarios`;
 CREATE TABLE `propietarios` (
   `id` int(11) NOT NULL,
-  `Nombre` varchar(120) NOT NULL
+  `Nombre` varchar(120) NOT NULL,
+  `password` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `propietarios`
 --
 
-INSERT INTO `propietarios` (`id`, `Nombre`) VALUES
-(1, 'Saul'),
-(2, 'Anais'),
-(3, 'Pere'),
-(4, 'saik');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `proveedores`
---
-
-DROP TABLE IF EXISTS `proveedores`;
-CREATE TABLE `proveedores` (
-  `id` int(11) NOT NULL,
-  `nombre` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `proveedores`
---
-
-INSERT INTO `proveedores` (`id`, `nombre`) VALUES
-(1, ''),
-(2, 'sdfsdfsdf');
+INSERT INTO `propietarios` (`id`, `Nombre`, `password`) VALUES
+(1, 'Saul', '123abc'),
+(2, 'Anais', '123456'),
+(3, 'Pere', 'abc123'),
+(7, 'Nata', 'nata123'),
+(71, 'saul', 'barcelona');
 
 -- --------------------------------------------------------
 
@@ -388,23 +367,23 @@ INSERT INTO `proveedores` (`id`, `nombre`) VALUES
 -- Estructura de tabla para la tabla `servicios`
 --
 
-DROP TABLE IF EXISTS `servicios`;
 CREATE TABLE `servicios` (
   `id` int(11) NOT NULL,
   `cuidador` int(11) NOT NULL,
   `mascota` int(11) NOT NULL,
   `fecha` date NOT NULL,
-  `duracion` decimal(2,0) NOT NULL
+  `duracion` decimal(2,0) NOT NULL,
+  `nombre` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `servicios`
 --
 
-INSERT INTO `servicios` (`id`, `cuidador`, `mascota`, `fecha`, `duracion`) VALUES
-(1, 1, 2, '2022-02-19', '1'),
-(2, 2, 3, '2022-01-22', '3'),
-(3, 2, 3, '2022-01-28', '3');
+INSERT INTO `servicios` (`id`, `cuidador`, `mascota`, `fecha`, `duracion`, `nombre`) VALUES
+(1, 1, 2, '2022-02-19', '1', ''),
+(2, 2, 3, '2022-01-22', '3', ''),
+(3, 2, 3, '2022-01-28', '3', '');
 
 -- --------------------------------------------------------
 
@@ -412,7 +391,6 @@ INSERT INTO `servicios` (`id`, `cuidador`, `mascota`, `fecha`, `duracion`) VALUE
 -- Estructura de tabla para la tabla `tarifas`
 --
 
-DROP TABLE IF EXISTS `tarifas`;
 CREATE TABLE `tarifas` (
   `id` int(11) NOT NULL,
   `duracion` decimal(2,0) NOT NULL,
@@ -425,7 +403,6 @@ CREATE TABLE `tarifas` (
 -- Estructura de tabla para la tabla `user`
 --
 
-DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -482,12 +459,6 @@ ALTER TABLE `propietarios`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indices de la tabla `proveedores`
---
-ALTER TABLE `proveedores`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indices de la tabla `servicios`
 --
 ALTER TABLE `servicios`
@@ -518,13 +489,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT de la tabla `cuidadores`
 --
 ALTER TABLE `cuidadores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `mascotas`
 --
 ALTER TABLE `mascotas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de la tabla `paises`
@@ -536,13 +507,7 @@ ALTER TABLE `paises`
 -- AUTO_INCREMENT de la tabla `propietarios`
 --
 ALTER TABLE `propietarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT de la tabla `proveedores`
---
-ALTER TABLE `proveedores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT de la tabla `servicios`
