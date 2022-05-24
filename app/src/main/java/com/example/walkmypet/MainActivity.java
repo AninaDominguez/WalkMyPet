@@ -99,7 +99,7 @@ String usuario,password;
             @Override
             public void onResponse(String response) {
                 if (!response.isEmpty()){
-                    Intent intent= new Intent(getApplicationContext(),Propietario.class);
+                    Intent intent= new Intent(getApplicationContext(), Propietario.class);
                     startActivity(intent);
                 }else{
                     Toast.makeText(MainActivity.this, "Usuario o contraseña incorrectos",Toast.LENGTH_SHORT).show();
