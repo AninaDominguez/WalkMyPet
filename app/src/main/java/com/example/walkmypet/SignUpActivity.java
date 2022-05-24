@@ -40,7 +40,7 @@ public class SignUpActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 insertarDatosPropietario();
-               // crearPropietario("http://192.168.1.48/v1/propietarios");
+               // crearPropietario("http://192.168.1.107/v1/propietarios");
             }
         });
     }
@@ -66,7 +66,7 @@ public class SignUpActivity extends AppCompatActivity {
             return;
         }else{
             progressDialog.show();
-            StringRequest request= new StringRequest(Request.Method.POST,"http://192.168.1.48/walkmypet/developeru/insertar_propietario.php", new Response.Listener<String>() {
+            StringRequest request= new StringRequest(Request.Method.POST,"http://192.168.1.107/walkmypet/developeru/insertar_propietario.php", new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
                     if (response.equalsIgnoreCase("registro correctamente")) {

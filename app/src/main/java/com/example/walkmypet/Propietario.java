@@ -1,10 +1,22 @@
 package com.example.walkmypet;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
 public class Propietario extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_cuenta_dueno) ;
+
+    }
 
     //Clase propietario, con sus mascotas en Array
     String name;
@@ -43,5 +55,11 @@ public class Propietario extends AppCompatActivity {
 
     public void setMascotas(ArrayList<Mascota> mascotas) {
         this.mascotas = mascotas;
+    }
+
+    public void goToBack(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+
     }
 }

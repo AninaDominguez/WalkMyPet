@@ -46,10 +46,12 @@ String usuario,password;
                 usuario=userLogin.getText().toString();
                 password=passwordLogin.getText().toString();
                 if(!usuario.isEmpty() && !password.isEmpty()){
-                    ValidarUsuario("http://192.168.1.48/walkmypet/developeru/validar_usuario.php");
+                    ValidarUsuario("http://192.168.1.107/walkmypet/developeru/validar_usuario.php");
+
                 }else{
                     Toast.makeText(MainActivity.this, "No se permite campos vacíos", Toast.LENGTH_SHORT).show();
                 }
+
                 //En esta parte del código lo que hace es mirar que los campos no esten vacíos, si estan rellenados ya esten bien o mal pasará por validar usuario de lo contrario aparecerá un mensaje.
             }
         });
