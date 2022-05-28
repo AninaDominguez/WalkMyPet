@@ -27,13 +27,13 @@
         android:layout_height="48dp"
         android:ems="10"
         android:hint="Email"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@id/editTextPasswordLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logoApp"
-        app:layout_constraintBottom_toTopOf="@id/editTextPasswordLogin"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@id/logoApp" />
 
 
     <EditText
@@ -55,10 +55,10 @@
         android:id="@+id/entrarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ENTRAR"
+        android:text="Propietario"
         app:layout_constraintBottom_toTopOf="@id/contrasenaOlvidada"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextEmailLogin" />
 
@@ -85,5 +85,18 @@ android:onClick="forgottenPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contrasenaOlvidada"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btnCuidador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Cuidador"
+        app:layout_constraintBottom_toTopOf="@+id/contrasenaOlvidada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailLogin"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
