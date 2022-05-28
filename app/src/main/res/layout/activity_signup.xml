@@ -47,51 +47,37 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextPasswordRegistro"
-        app:layout_constraintBottom_toTopOf="@id/radioGroup"
+        app:layout_constraintBottom_toTopOf="@id/registroButtonCuidador"
         tools:ignore="TextContrastCheck"/>
 
-    <RadioGroup
-        android:id="@+id/radioGroup"
+
+
+
+    <Button
+        android:id="@+id/registroButtonCuidador"
+        style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checkedButton="@id/cuidadorRadioButton"
+        android:text="REGISTRARME COMO CUIDADOR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextPasswordRegistro"
-        app:layout_constraintBottom_toTopOf="@id/registroButton">
+        app:layout_constraintBottom_toTopOf="@id/registroButton"
+        />
 
-
-        <RadioButton
-            android:id="@+id/cuidadorRadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Quiero cuidar perros"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"/>
-
-        <RadioButton
-            android:id="@+id/duenoRadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Necesito cuidador para mi perro"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent" />
-    </RadioGroup>
 
     <Button
         android:id="@+id/registroButton"
         style="@style/ButtonTheme.WalkMyPet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="REGISTRARME"
+        android:text="REGISTRARME COMO PROPIETARIO"
         app:layout_constraintBottom_toTopOf="@id/atrasButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@id/registroButtonCuidador" />
 
     <Button
         android:id="@+id/atrasButton"
