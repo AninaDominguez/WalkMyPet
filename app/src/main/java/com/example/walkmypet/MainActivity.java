@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 EditText userLogin, passwordLogin;
-Button btnLogin;
+Button btnLogin,btnCuidador;
 String usuario,password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,21 @@ String usuario,password;
         userLogin = findViewById(R.id.editTextEmailLogin);
         passwordLogin = findViewById(R.id.editTextPasswordLogin);
         btnLogin = findViewById(R.id.entrarButton);
+        btnCuidador = findViewById(R.id.btnCuidador);
+
+        btnCuidador.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                usuario=userLogin.getText().toString();
+                password=passwordLogin.getText().toString();
+                if(!usuario.isEmpty() && !password.isEmpty()){
+                    ValidarCuidador("http://192.168.1.107/walkmypet/developeru/validar_cuidador.php");
+
+                }else{
+                    Toast.makeText(MainActivity.this, "No se permite campos vacíos", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,29 +78,6 @@ String usuario,password;
         startActivity(intent);
 
     }
-/*    public void login (View view) {
-
-        Verificacion user y password, se cambia cuando la bbdd este implementada llamando a los metodos necesarios.
-
-        String user = userLogin.getText().toString();
-        String password = passwordLogin.getText().toString();
-
-        if (user.equals("") || password.equals("")) {
-            Toast.makeText(MainActivity.this, "Los datos son incorrectos, vuelva a intentarlo gracias. ", Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(MainActivity.this, "Login correcto " + user + ", gracias.  ", Toast.LENGTH_SHORT).show();
-        }
-
-        //Metodo provisional, se tendria que verificar con los datos de bbdd
-        if (user == dueño) {
-            Intent intentLoginDueño = new Intent(this, SignUpActivity.class);
-            startActivity(intentLoginDueño);
-        } else {
-            Intent intentLoginCuidador = new Intent(this, SignUpActivity.class);
-            startActivity(intentLoginCuidador);
-        }
-
-    }*/
     //Intent a recuperar contraseña
     public void forgottenPassword (View view) {
             Toast.makeText(getApplicationContext(), "Forgotten password", Toast.LENGTH_LONG)
@@ -95,6 +87,37 @@ String usuario,password;
     }
 
     public  void ValidarUsuario (String URL){
+        StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                if (!response.isEmpty()){
+                    Intent intent= new Intent(getApplicationContext(), Propietario.class);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(MainActivity.this, "Usuario o contraseña incorrectos",Toast.LENGTH_SHORT).show();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(MainActivity.this,error.toString(),Toast.LENGTH_SHORT).show();
+            }
+        }){
+            @Nullable
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> parametros=new HashMap<String,String>();
+                parametros.put("nombre",userLogin.getText().toString());
+                parametros.put("Password",passwordLogin.getText().toString());
+                return parametros;
+            }
+        };
+
+
+        RequestQueue requestQueue= Volley.newRequestQueue(this);
+        requestQueue.add(stringRequest);
+    }
+    public  void ValidarCuidador (String URL){
         StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {

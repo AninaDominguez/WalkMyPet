@@ -66,13 +66,14 @@
         android:id="@+id/contrasenaOlvidada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-android:onClick="forgottenPassword"
+        android:onClick="forgottenPassword"
         android:text="He olvidado la contraseña"
+        app:layout_constraintBottom_toTopOf="@id/comenzarRegistroButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/entrarButton"
-        app:layout_constraintBottom_toTopOf="@id/comenzarRegistroButton" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/comenzarRegistroButton"
