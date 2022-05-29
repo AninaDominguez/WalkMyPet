@@ -5,37 +5,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".DataPetActivity"
     >
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorSecondary"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/colorSecondary">
+        tools:layout_editor_absoluteX="0dp">
 
         <ImageButton
-            android:onClick="goToMyProfile"
             android:id="@+id/imageView"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:clickable="true"
             android:layout_gravity="left"
             android:layout_marginRight="10dp"
-            android:src="@drawable/profile"
-            />
+            android:clickable="true"
+            android:onClick="goToMyProfile"
+            android:src="@drawable/profile" />
 
         <ImageButton
-            android:onClick="goToBack"
             android:id="@+id/imageView2"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:textStyle="bold"
-            android:clickable="true"
             android:layout_gravity="left"
             android:layout_marginRight="10dp"
-            android:src="@drawable/exit" />
+            android:clickable="true"
+            android:onClick="goToMenu"
+            android:src="@drawable/exit"
+            android:textStyle="bold" />
 
         <androidx.appcompat.widget.SearchView
             android:id="@+id/svSearch"
@@ -43,12 +43,12 @@
             android:layout_height="20dp"
             android:layout_gravity="right"
             android:layout_marginRight="20dp"
+            android:background="@color/white"
             android:queryHint="Buscar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:background="@color/white"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.appcompat.widget.Toolbar>
 

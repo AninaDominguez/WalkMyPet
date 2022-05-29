@@ -37,10 +37,11 @@ public class DataPetActivity extends AppCompatActivity {
 
     }
     //Método para volver al inicio
-    public void goToBack(View view){
-        Intent intent = new Intent(this,MainActivity.class);
+    public void goToMenu(View view){
+        Intent intent = new Intent(this, Propietario.class);
         startActivity(intent);
 
-
     }
+
+
 }
