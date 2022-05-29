@@ -61,7 +61,7 @@ String usuario,password;
                 usuario=userLogin.getText().toString();
                 password=passwordLogin.getText().toString();
                 if(!usuario.isEmpty() && !password.isEmpty()){
-                    ValidarUsuario("http://192.168.1.48/walkmypet/developeru/validar_usuario.php");
+                    ValidarUsuario("http://192.168.1.107/walkmypet/developeru/validar_usuario.php");
 
                 }else{
                     Toast.makeText(MainActivity.this, "No se permite campos vacíos", Toast.LENGTH_SHORT).show();
