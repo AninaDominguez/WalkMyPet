@@ -1,10 +1,12 @@
 package com.example.walkmypet;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-public class Cuidador {
+public class Cuidador extends AppCompatActivity {
 
     //Clase cuidador, con los atributos necesarios para el constructor, tambien el array de fechas
     String name;

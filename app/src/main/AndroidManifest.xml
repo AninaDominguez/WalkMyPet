@@ -26,6 +26,13 @@
         <activity android:name=".CancelarActivity"/>
         <activity android:name=".ListadoCuidadorActivity"/>
         <activity android:name=".DatosCuidadorActivity"/>
+        <activity android:name=".AnadirActivity"/>
+        <activity android:name=".CuentaActivity"/>
+        <activity android:name=".Cuidador"/>
+        <activity android:name=".DarBajaActivity"/>
+        <activity android:name=".DataPetActivity"/>
+        <activity android:name=".EditarMascotaActivity"/>
+        <activity android:name=".Mascota"/>
 
     </application>
 

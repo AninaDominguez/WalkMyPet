@@ -1,6 +1,8 @@
 package com.example.walkmypet;
 
-public class Mascota {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Mascota extends AppCompatActivity {
 
     //Clase mascota, esta clase será solo a la hora de mostrar cada cuidador sus mascotas
     String name;
