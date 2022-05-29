@@ -25,6 +25,9 @@ public class LocalizacionActivity extends AppCompatActivity {
         });
 
     }
+    public void confirmarLocalizacion(View view){
+
+    }
 
 
 }
