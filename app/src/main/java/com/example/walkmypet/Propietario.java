@@ -30,6 +30,7 @@ public class Propietario extends AppCompatActivity {
 
         lista1.setAdapter(adapter1);
 
+
     }
 
     /*//Clase propietario, con sus mascotas en Array
