@@ -6,35 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <androidx.appcompat.widget.Toolbar
-        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="INFO MASCOTA"
-            android:textStyle="bold"
-            android:layout_gravity="center"
-            android:gravity="bottom"
-            android:textColor="#fff"/>
+        android:background="@color/colorSecondary"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
         <ImageButton
+            android:id="@+id/perfilImageButttonIB"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:clickable="true"
             android:layout_gravity="left"
             android:layout_marginRight="10dp"
-            android:src="@drawable/profile"
-            />
+            android:clickable="true"
+            android:onClick="goToMyProfile"
+            android:src="@drawable/profile" />
+
         <ImageButton
+            android:id="@+id/salirImageButtonIB2"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:textStyle="bold"
-            android:clickable="true"
             android:layout_gravity="left"
             android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:onClick="goToBack"
             android:src="@drawable/exit"
-            />
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchVw"
+            android:layout_width="160dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:queryHint="Buscar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.appcompat.widget.Toolbar>
 
