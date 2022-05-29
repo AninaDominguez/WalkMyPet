@@ -37,6 +37,7 @@
         android:layout_marginTop="20dp">
 
         <Button
+            android:id="@+id/btn1"
             style="@style/ButtonTheme.WalkMyPet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,6 +45,7 @@
             android:text="SI" />
 
         <Button
+            android:id="@+id/btn2"
             style="@style/ButtonTheme.WalkMyPet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
