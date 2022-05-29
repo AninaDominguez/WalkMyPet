@@ -3,7 +3,9 @@ package com.example.walkmypet;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -29,6 +31,25 @@ public class Propietario extends AppCompatActivity {
         ListAdapter adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, textos1);
 
         lista1.setAdapter(adapter1);
+
+        lista1.setClickable(true);
+        /* lista1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+
+
+
+                Object o = lista1.getItemAtPosition(position);
+
+
+
+                // Realiza lo que deseas, al recibir clic en el elemento de tu listView determinado por su posicion.
+               // Log.i("Click", "click en el elemento " + position + " de mi ListView");
+
+
+            }
+        }); */
 
 
     }
