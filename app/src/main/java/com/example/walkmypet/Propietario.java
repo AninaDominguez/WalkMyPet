@@ -81,6 +81,7 @@ public class Propietario extends AppCompatActivity implements View.OnClickListen
         startActivity(intent);
     }
 
+
     public void goToBack(View view){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
