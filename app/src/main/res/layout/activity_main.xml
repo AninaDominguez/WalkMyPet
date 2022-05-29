@@ -26,7 +26,7 @@
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="Usuario"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@id/editTextPasswordLogin"
