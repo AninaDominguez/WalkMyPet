@@ -46,7 +46,7 @@ public class SignUpActivity extends AppCompatActivity {
             }
         });
 
-        btnRegister.setOnClickListener(new View.OnClickListener() {
+        btnRegisterCuidador.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 insertarDatosCuidador();
