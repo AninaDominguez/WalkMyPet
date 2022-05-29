@@ -1,13 +1,16 @@
 package com.example.walkmypet;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Mascota extends AppCompatActivity {
 
-
+    private TextView txtDepartamento;
+    private TextView txtNombre;
+    private TextView txtPuesto;
     //Clase mascota, esta clase será solo a la hora de mostrar cada cuidador sus mascotas
     String name;
     String age;
@@ -20,6 +23,13 @@ public class Mascota extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pet_infomation) ;
+        txtDepartamento = findViewById(R.id.txtDepartamento);
+        txtNombre = findViewById(R.id.txtNombre);
+        txtPuesto = findViewById(R.id.txtPuesto);
+
+        txtNombre.setText(getIntent().getStringExtra("nombre"));
+        txtDepartamento.setText(getIntent().getStringExtra("departamento"));
+        txtPuesto.setText(getIntent().getStringExtra("puesto"));
 
 
 

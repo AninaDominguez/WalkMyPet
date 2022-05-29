@@ -1,15 +1,12 @@
 package com.example.walkmypet;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -38,12 +35,12 @@ public class Propietario extends AppCompatActivity implements View.OnClickListen
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuenta_dueno) ;
-        edtNombre = findViewById(R.id.edtNombre);
-        edtPuesto = findViewById(R.id.edtPuesto);
-        edtDepartamento = findViewById(R.id.edtDepartamento);
+        edtNombre = findViewById(R.id.txtNombre);
+        edtPuesto = findViewById(R.id.txtPuesto);
+        edtDepartamento = findViewById(R.id.txtDepartamento);
         btn = findViewById(R.id.btn);
-        mListView = findViewById(R.id.mListView);
         btn.setOnClickListener(this);
+        mListView = findViewById(R.id.mListView);
         mListView.setOnItemClickListener(this);
 
 
