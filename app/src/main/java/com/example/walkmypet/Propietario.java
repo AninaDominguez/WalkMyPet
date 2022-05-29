@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
@@ -26,30 +27,40 @@ public class Propietario extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuenta_dueno) ;
 
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Ubicación");
+        builder.setMessage("¿Permites que esta app active tu ubicación?");
+
+        builder.setPositiveButton("Aceptar", null);
+        builder.setNegativeButton("Cancelar", null);
+        AlertDialog dialog = builder.create();
+        dialog.show();
         lista1 = findViewById(R.id.listadueno);
 
+
+
         ListAdapter adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, textos1);
+
 
         lista1.setAdapter(adapter1);
 
         lista1.setClickable(true);
-        /* lista1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+         lista1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
 
-
-
                 Object o = lista1.getItemAtPosition(position);
 
 
-
                 // Realiza lo que deseas, al recibir clic en el elemento de tu listView determinado por su posicion.
-               // Log.i("Click", "click en el elemento " + position + " de mi ListView");
+                Log.i("Click", "click en el elemento " + position + " de mi ListView");
+
 
 
             }
-        }); */
+        });
 
 
     }
