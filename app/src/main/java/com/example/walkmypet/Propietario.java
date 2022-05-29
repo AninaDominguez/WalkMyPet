@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class Propietario extends AppCompatActivity {
 
     ListView lista1;
-    String [] textos1 = {"                                        WILSON", "                                     LAIA", "                                     KIRA", "                                     BRUNO", "                                        Otros"};
+    String [] textos1 = {"WILSON", "LAIA", "KIRA", "BRUNO", "OTROS"};
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -29,6 +29,7 @@ public class Propietario extends AppCompatActivity {
         ListAdapter adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, textos1);
 
         lista1.setAdapter(adapter1);
+
 
     }
 
