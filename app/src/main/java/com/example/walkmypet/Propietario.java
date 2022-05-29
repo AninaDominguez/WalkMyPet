@@ -79,6 +79,7 @@ public class Propietario extends AppCompatActivity implements View.OnClickListen
         intent.putExtra("puesto",lstPuestos.get(position));
         intent.putExtra("departamento",lstDepartamentos.get(position));
         startActivity(intent);
+
     }
 
 
