@@ -7,25 +7,44 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class Propietario extends AppCompatActivity {
+public class Propietario extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
 
-    ListView lista1;
-    String [] textos1 = {"WILSON", "LAIA", "KIRA", "BRUNO", "OTROS"};
+    private EditText edtNombre;
+    private EditText edtPuesto;
+    private EditText edtDepartamento;
+    private Button btn;
+    private ListView mListView;
+    private List<String> lstNombres = new ArrayList<>();
+    private List<String> lstPuestos = new ArrayList<>();
+    private List<String> lstDepartamentos = new ArrayList<>();
 
-    @SuppressLint("WrongViewCast")
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuenta_dueno) ;
+        edtNombre = findViewById(R.id.edtNombre);
+        edtPuesto = findViewById(R.id.edtPuesto);
+        edtDepartamento = findViewById(R.id.edtDepartamento);
+        btn = findViewById(R.id.btn);
+        mListView = findViewById(R.id.mListView);
+        btn.setOnClickListener(this);
+        mListView.setOnItemClickListener(this);
 
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -36,77 +55,34 @@ public class Propietario extends AppCompatActivity {
         builder.setNegativeButton("Cancelar", null);
         AlertDialog dialog = builder.create();
         dialog.show();
-        lista1 = findViewById(R.id.listadueno);
-
-
-
-        ListAdapter adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, textos1);
-
-
-        lista1.setAdapter(adapter1);
-
-        lista1.setClickable(true);
-         lista1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-
-                Object o = lista1.getItemAtPosition(position);
-
-
-                // Realiza lo que deseas, al recibir clic en el elemento de tu listView determinado por su posicion.
-                Log.i("Click", "click en el elemento " + position + " de mi ListView");
-
-
-
-            }
-        });
-
 
     }
 
-    /*//Clase propietario, con sus mascotas en Array
-    String name;
-    String surname;
-    int photo;
-    ArrayList<Mascota> mascotas = new ArrayList<>();
-
-
-
-    //Generados Getters y Setters
-    public String getName() {
-        return name;
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.btn:
+                if(!edtNombre.getText().toString().trim().isEmpty() && !edtPuesto.getText().toString().trim().isEmpty() &&!edtDepartamento.getText().toString().trim().isEmpty()) {
+                    lstDepartamentos.add(edtDepartamento.getText().toString().trim());
+                    lstNombres.add(edtNombre.getText().toString().trim());
+                    lstPuestos.add(edtPuesto.getText().toString().trim());
+                    mListView.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,lstDepartamentos));
+                    edtNombre.getText().clear();
+                    edtPuesto.getText().clear();
+                    edtDepartamento.getText().clear();
+                }else{
+                    Toast.makeText(this,"Faltan campos por rellenar",Toast.LENGTH_SHORT).show();
+                }
+        }
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    public String getSurname() {
-        return surname;
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Intent intent= new Intent(this,Mascota.class);
+        intent.putExtra("nombre",lstNombres.get(position));
+        intent.putExtra("puesto",lstPuestos.get(position));
+        intent.putExtra("departamento",lstDepartamentos.get(position));
+        startActivity(intent);
     }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public int getPhoto() {
-        return photo;
-    }
-
-    public void setPhoto(int photo) {
-        this.photo = photo;
-    }
-
-    public ArrayList<Mascota> getMascotas() {
-        return mascotas;
-    }
-
-    public void setMascotas(ArrayList<Mascota> mascotas) {
-        this.mascotas = mascotas;
-    }
-    */
-
 
     public void goToBack(View view){
         Intent intent = new Intent(this,MainActivity.class);
