@@ -35,9 +35,9 @@ public class Propietario extends AppCompatActivity implements View.OnClickListen
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuenta_dueno) ;
-        edtNombre = findViewById(R.id.txtNombre);
-        edtPuesto = findViewById(R.id.txtPuesto);
-        edtDepartamento = findViewById(R.id.txtDepartamento);
+        edtNombre = findViewById(R.id.edtNombre);
+        edtPuesto = findViewById(R.id.edtPuesto);
+        edtDepartamento = findViewById(R.id.edtDepartamento);
         btn = findViewById(R.id.btn);
         btn.setOnClickListener(this);
         mListView = findViewById(R.id.mListView);
@@ -59,10 +59,10 @@ public class Propietario extends AppCompatActivity implements View.OnClickListen
         switch (v.getId()){
             case R.id.btn:
                 if(!edtNombre.getText().toString().trim().isEmpty() && !edtPuesto.getText().toString().trim().isEmpty() &&!edtDepartamento.getText().toString().trim().isEmpty()) {
-                    lstDepartamentos.add(edtDepartamento.getText().toString().trim());
                     lstNombres.add(edtNombre.getText().toString().trim());
                     lstPuestos.add(edtPuesto.getText().toString().trim());
-                    mListView.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,lstDepartamentos));
+                    lstDepartamentos.add(edtDepartamento.getText().toString().trim());
+                    mListView.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,lstNombres));
                     edtNombre.getText().clear();
                     edtPuesto.getText().clear();
                     edtDepartamento.getText().clear();
@@ -86,6 +86,7 @@ public class Propietario extends AppCompatActivity implements View.OnClickListen
     public void goToBack(View view){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+        finish();
 
     }
 }
