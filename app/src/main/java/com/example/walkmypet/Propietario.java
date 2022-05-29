@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class Propietario extends AppCompatActivity {
 
     ListView lista1;
-    String [] textos1 = {"                                        WILSON", "                                     LAIA", "                                     KIRA", "                                     BRUNO", "                                        Otros"};
+    String [] textos1 = {"WILSON", "LAIA", "KIRA", "BRUNO", "OTROS"};
 
     @SuppressLint("WrongViewCast")
     @Override
