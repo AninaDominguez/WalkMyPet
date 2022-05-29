@@ -3,7 +3,7 @@ include 'conexion.php';
 $Nombre=$_POST['nombre'];
 $password=$_POST['Password'];
 
-$query = "INSERT INTO propietarios (nombre,Password) values ('$Nombre','$password')";
+$query = "INSERT INTO cuidadores (nombre,Password) values ('$Nombre','$password')";
 $resultado =mysqli_query($conexion,$query);
 
 if($resultado){
