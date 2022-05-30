@@ -3,7 +3,9 @@ package com.example.walkmypet;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +20,7 @@ public class Mascota extends AppCompatActivity {
     String age;
     String specie;
     int photo;
+    Button guardar;
 
 
     @Override
@@ -34,11 +37,24 @@ public class Mascota extends AppCompatActivity {
         txtPuesto.setText(getIntent().getStringExtra("puesto"));
 
 
+        guardar = findViewById(R.id.btnguardar);
+
+        guardar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Mascota.this, "datos guardados", Toast.LENGTH_SHORT).show();
+
+            }
+        });
 
     }
 
 
 
+    public void listacuidador(View view){
+        Intent intent = new Intent(this, ListadoCuidadorActivity.class);
+        startActivity(intent);
+    }
     public void getOut (View view) {
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
