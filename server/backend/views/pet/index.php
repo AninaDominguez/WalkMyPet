@@ -1,27 +1,25 @@
 <?php
-use common\models\Pet;
 
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
-use yii\widgets\Pjax;
+
 /* @var $this yii\web\View */
-/* @var $searchModel common\models\PetSearch */
+/* @var $searchModel common\models\MascotasSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app', 'Pets');
+$this->title = 'Mascotas';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="pet-index">
+<div class="mascotas-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a(Yii::t('app', 'Create Pet'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Mascotas', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
-    <?php Pjax::begin(); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <?= GridView::widget([
@@ -31,17 +29,17 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'name',
-            'ownerId',
+            'propietario',
+            'Nombre',
             [
                 'class' => ActionColumn::className(),
-                'urlCreator' => function ($action, Pet $model, $key, $index, $column) {
+                'urlCreator' => function ($action, Mascotas $model, $key, $index, $column) {
                     return Url::toRoute([$action, 'id' => $model->id]);
                  }
             ],
         ],
     ]); ?>
+	 <?php Pjax::end(); ?>
 
-    <?php Pjax::end(); ?>
 
 </div>

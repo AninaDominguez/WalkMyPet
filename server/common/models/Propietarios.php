@@ -41,9 +41,9 @@ class Propietarios extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'Nombre' => 'Nombre',
-            'password' => 'Password',
+            'id' => Yii::t('app', 'ID'),
+            'Nombre' => Yii::t('app', 'Nombre'),
+            'password' => Yii::t('app', 'Password'),
         ];
     }
 

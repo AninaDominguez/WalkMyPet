@@ -9,7 +9,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * WalkerController implements the CRUD actions for Walker model.
+ * CuidadoresController implements the CRUD actions for Cuidadores model.
  */
 class CuidadoresController extends Controller
 {
@@ -32,7 +32,7 @@ class CuidadoresController extends Controller
     }
 
     /**
-     * Lists all Walker models.
+     * Lists all Cuidadores models.
      *
      * @return string
      */
@@ -48,7 +48,7 @@ class CuidadoresController extends Controller
     }
 
     /**
-     * Displays a single Walker model.
+     * Displays a single Cuidadores model.
      * @param int $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
@@ -61,7 +61,7 @@ class CuidadoresController extends Controller
     }
 
     /**
-     * Creates a new Walker model.
+     * Creates a new Cuidadores model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
@@ -83,7 +83,7 @@ class CuidadoresController extends Controller
     }
 
     /**
-     * Updates an existing Walker model.
+     * Updates an existing Cuidadores model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param int $id ID
      * @return string|\yii\web\Response
@@ -103,7 +103,7 @@ class CuidadoresController extends Controller
     }
 
     /**
-     * Deletes an existing Walker model.
+     * Deletes an existing Cuidadores model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param int $id ID
      * @return \yii\web\Response
@@ -117,10 +117,10 @@ class CuidadoresController extends Controller
     }
 
     /**
-     * Finds the Walker model based on its primary key value.
+     * Finds the Cuidadores model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param int $id ID
-     * @return Walker the loaded model
+     * @return Cuidadores the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
@@ -129,6 +129,6 @@ class CuidadoresController extends Controller
             return $model;
         }
 
-        throw new NotFoundHttpException(Yii::t('app', 'The requested page does not exist.'));
+        throw new NotFoundHttpException('The requested page does not exist.');
     }
 }

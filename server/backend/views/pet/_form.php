@@ -4,20 +4,20 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\Pet */
+/* @var $model common\models\Mascotas */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="pet-form">
+<div class="mascotas-form">
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'propietario')->textInput() ?>
 
-    <?= $form->field($model, 'ownerId')->textInput() ?>
+    <?= $form->field($model, 'Nombre')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

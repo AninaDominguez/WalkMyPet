@@ -49,12 +49,12 @@ class Servicios extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'cuidador' => 'Cuidador',
-            'mascota' => 'Mascota',
-            'fecha' => 'Fecha',
-            'duracion' => 'Duracion',
-            'nombre' => 'Nombre',
+            'id' => Yii::t('app', 'ID'),
+            'cuidador' => Yii::t('app', 'Cuidador'),
+            'mascota' => Yii::t('app', 'Mascota'),
+            'fecha' => Yii::t('app', 'Fecha'),
+            'duracion' => Yii::t('app', 'Duracion'),
+            'nombre' => Yii::t('app', 'Nombre'),
         ];
     }
 

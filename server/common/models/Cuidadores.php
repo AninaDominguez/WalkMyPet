@@ -9,6 +9,7 @@ use Yii;
  *
  * @property int $id
  * @property string $Nombre
+ * @property string $password
  *
  * @property Servicios[] $servicios
  */
@@ -28,8 +29,9 @@ class Cuidadores extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Nombre'], 'required'],
+            [['Nombre', 'password'], 'required'],
             [['Nombre'], 'string', 'max' => 120],
+            [['password'], 'string', 'max' => 50],
         ];
     }
 
@@ -41,6 +43,7 @@ class Cuidadores extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'Nombre' => Yii::t('app', 'Nombre'),
+            'password' => Yii::t('app', 'Password'),
         ];
     }
 

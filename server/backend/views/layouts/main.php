@@ -35,10 +35,10 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => Yii::t('app', 'Home'), 		'url' => ['/site/index']],
-        ['label' => Yii::t('app', 'Pets'), 		'url' => ['/pet']],
-        ['label' => Yii::t('app', 'Walkers'), 	'url' => ['/walker']],
-        ['label' => Yii::t('app', 'Services'), 	'url' => ['/service']],
-        ['label' => Yii::t('app', 'Owners'), 	'url' => ['/owner']],
+        ['label' => Yii::t('app', 'Mascotas'), 	'url' => ['/mascotas']],
+        ['label' => Yii::t('app', 'Propietarios'), 	'url' => ['/propietarios']],
+        ['label' => Yii::t('app', 'Servicios'), 	'url' => ['/servicios']],
+        ['label' => Yii::t('app', 'Cuidadores'), 	'url' => ['/cuidadores']],
 		\lajax\languagepicker\widgets\LanguagePicker::widget([
 			'skin' => \lajax\languagepicker\widgets\LanguagePicker::SKIN_DROPDOWN,
 			'size' => \lajax\languagepicker\widgets\LanguagePicker::SIZE_SMALL

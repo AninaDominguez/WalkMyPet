@@ -9,7 +9,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * PetController implements the CRUD actions for Pet model.
+ * MascotasController implements the CRUD actions for Mascotas model.
  */
 class MascotasController extends Controller
 {
@@ -32,7 +32,7 @@ class MascotasController extends Controller
     }
 
     /**
-     * Lists all Pet models.
+     * Lists all Mascotas models.
      *
      * @return string
      */
@@ -48,7 +48,7 @@ class MascotasController extends Controller
     }
 
     /**
-     * Displays a single Pet model.
+     * Displays a single Mascotas model.
      * @param int $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
@@ -61,7 +61,7 @@ class MascotasController extends Controller
     }
 
     /**
-     * Creates a new Pet model.
+     * Creates a new Mascotas model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
@@ -83,7 +83,7 @@ class MascotasController extends Controller
     }
 
     /**
-     * Updates an existing Pet model.
+     * Updates an existing Mascotas model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param int $id ID
      * @return string|\yii\web\Response
@@ -103,7 +103,7 @@ class MascotasController extends Controller
     }
 
     /**
-     * Deletes an existing Pet model.
+     * Deletes an existing Mascotas model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param int $id ID
      * @return \yii\web\Response
@@ -117,10 +117,10 @@ class MascotasController extends Controller
     }
 
     /**
-     * Finds the Pet model based on its primary key value.
+     * Finds the Mascotas model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param int $id ID
-     * @return Pet the loaded model
+     * @return Mascotas the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
@@ -129,6 +129,6 @@ class MascotasController extends Controller
             return $model;
         }
 
-        throw new NotFoundHttpException(Yii::t('app', 'The requested page does not exist.'));
+        throw new NotFoundHttpException('The requested page does not exist.');
     }
 }

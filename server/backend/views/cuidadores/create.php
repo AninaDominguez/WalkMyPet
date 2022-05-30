@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\Walker */
+/* @var $model common\models\Cuidadores */
 
-$this->title = Yii::t('app', 'Create Cuidadores');
-$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Cuidadores'), 'url' => ['index']];
+$this->title = 'Create Cuidadores';
+$this->params['breadcrumbs'][] = ['label' => 'Cuidadores', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="walker-create">
+<div class="cuidadores-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

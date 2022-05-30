@@ -27,7 +27,8 @@ class Paises extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Codigo', 'Nombre'], 'required'],
+            [['id', 'Codigo', 'Nombre'], 'required'],
+            [['id'], 'integer'],
             [['Codigo'], 'string', 'max' => 2],
             [['Nombre'], 'string', 'max' => 120],
         ];

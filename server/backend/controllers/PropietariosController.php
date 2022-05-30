@@ -9,7 +9,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * OwnerController implements the CRUD actions for Owner model.
+ * PropietariosController implements the CRUD actions for Propietarios model.
  */
 class PropietariosController extends Controller
 {
@@ -32,7 +32,7 @@ class PropietariosController extends Controller
     }
 
     /**
-     * Lists all Owner models.
+     * Lists all Propietarios models.
      *
      * @return string
      */
@@ -48,7 +48,7 @@ class PropietariosController extends Controller
     }
 
     /**
-     * Displays a single Owner model.
+     * Displays a single Propietarios model.
      * @param int $id ID
      * @return string
      * @throws NotFoundHttpException if the model cannot be found
@@ -61,7 +61,7 @@ class PropietariosController extends Controller
     }
 
     /**
-     * Creates a new Owner model.
+     * Creates a new Propietarios model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return string|\yii\web\Response
      */
@@ -83,7 +83,7 @@ class PropietariosController extends Controller
     }
 
     /**
-     * Updates an existing Owner model.
+     * Updates an existing Propietarios model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param int $id ID
      * @return string|\yii\web\Response
@@ -103,7 +103,7 @@ class PropietariosController extends Controller
     }
 
     /**
-     * Deletes an existing Owner model.
+     * Deletes an existing Propietarios model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param int $id ID
      * @return \yii\web\Response
@@ -117,10 +117,10 @@ class PropietariosController extends Controller
     }
 
     /**
-     * Finds the Owner model based on its primary key value.
+     * Finds the Propietarios model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param int $id ID
-     * @return Owner the loaded model
+     * @return Propietarios the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
@@ -129,6 +129,6 @@ class PropietariosController extends Controller
             return $model;
         }
 
-        throw new NotFoundHttpException(Yii::t('app', 'The requested page does not exist.'));
+        throw new NotFoundHttpException('The requested page does not exist.');
     }
 }
