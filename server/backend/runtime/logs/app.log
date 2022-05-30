@@ -10136,3 +10136,251 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1653935623.8496
     'REQUEST_TIME' => 1653935623
 ]
+2022-05-30 21:14:52 [127.0.0.1][1][7auuhmdt9dtmrhv1piu3atci84][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`walkmypet`.`servicios`, CONSTRAINT `fk_servicios_cuidador` FOREIGN KEY (`cuidador`) REFERENCES `cuidadores` (`id`)) in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `cu...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(405): yii\db\Command->execute()
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(765): yii\db\ActiveRecord::deleteAll(Array)
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(724): yii\db\ActiveRecord->deleteInternal()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\CuidadoresController.php(114): yii\db\ActiveRecord->delete()
+#6 [internal function]: backend\controllers\CuidadoresController->actionDelete('1')
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delete', Array)
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cuidadores/dele...', Array)
+#11 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`walkmypet`.`servicios`, CONSTRAINT `fk_servicios_cuidador` FOREIGN KEY (`cuidador`) REFERENCES `cuidadores` (`id`))
+The SQL being executed was: DELETE FROM `cuidadores` WHERE `id`=1 in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `cu...')
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `cu...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(405): yii\db\Command->execute()
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(765): yii\db\ActiveRecord::deleteAll(Array)
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(724): yii\db\ActiveRecord->deleteInternal()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\CuidadoresController.php(114): yii\db\ActiveRecord->delete()
+#6 [internal function]: backend\controllers\CuidadoresController->actionDelete('1')
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delete', Array)
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cuidadores/dele...', Array)
+#11 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1451
+    [2] => Cannot delete or update a parent row: a foreign key constraint fails (`walkmypet`.`servicios`, CONSTRAINT `fk_servicios_cuidador` FOREIGN KEY (`cuidador`) REFERENCES `cuidadores` (`id`))
+)
+
+2022-05-30 21:14:52 [127.0.0.1][1][7auuhmdt9dtmrhv1piu3atci84][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = [
+    '_csrf-backend' => 'lq990hlWBmkyOQwGds6T3AfKytkVqmYD8tbOuhKSlcnVwBKLKwVXH0IIPmoso_6ZUpX7lFHzUXm-v5j0JfChhA=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    'advanced-backend' => '7auuhmdt9dtmrhv1piu3atci84'
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '50c7de954eed3fea3c8c496fd988f3e90196d480070b3fa6864abb34e08108aca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CooY2SQvp12lZmmEU_1MDY7zLiVN7b4M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://admin.walkmypet.local'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/cuidadores/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; advanced-backend=7auuhmdt9dtmrhv1piu3atci84; _identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=50c7de954eed3fea3c8c496fd988f3e90196d480070b3fa6864abb34e08108aca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CooY2SQvp12lZmmEU_1MDY7zLiVN7b4M%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57190'
+    'REDIRECT_URL' => '/cuidadores/delete'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/cuidadores/delete?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1653938092.8559
+    'REQUEST_TIME' => 1653938092
+]
+2022-05-30 21:15:00 [127.0.0.1][1][7auuhmdt9dtmrhv1piu3atci84][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`walkmypet`.`servicios`, CONSTRAINT `fk_servicios_cuidador` FOREIGN KEY (`cuidador`) REFERENCES `cuidadores` (`id`)) in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `cu...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(405): yii\db\Command->execute()
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(765): yii\db\ActiveRecord::deleteAll(Array)
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(724): yii\db\ActiveRecord->deleteInternal()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\CuidadoresController.php(114): yii\db\ActiveRecord->delete()
+#6 [internal function]: backend\controllers\CuidadoresController->actionDelete('1')
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delete', Array)
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cuidadores/dele...', Array)
+#11 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`walkmypet`.`servicios`, CONSTRAINT `fk_servicios_cuidador` FOREIGN KEY (`cuidador`) REFERENCES `cuidadores` (`id`))
+The SQL being executed was: DELETE FROM `cuidadores` WHERE `id`=1 in C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `cu...')
+#1 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `cu...')
+#2 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(405): yii\db\Command->execute()
+#3 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(765): yii\db\ActiveRecord::deleteAll(Array)
+#4 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\db\ActiveRecord.php(724): yii\db\ActiveRecord->deleteInternal()
+#5 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\controllers\CuidadoresController.php(114): yii\db\ActiveRecord->delete()
+#6 [internal function]: backend\controllers\CuidadoresController->actionDelete('1')
+#7 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delete', Array)
+#10 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cuidadores/dele...', Array)
+#11 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\Usuario\AndroidStudioProjects\WalkMyPet\server\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1451
+    [2] => Cannot delete or update a parent row: a foreign key constraint fails (`walkmypet`.`servicios`, CONSTRAINT `fk_servicios_cuidador` FOREIGN KEY (`cuidador`) REFERENCES `cuidadores` (`id`))
+)
+
+2022-05-30 21:15:00 [127.0.0.1][1][7auuhmdt9dtmrhv1piu3atci84][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = [
+    '_csrf-backend' => 'r0K5-rLs4whFLPTX1rHeo8GQJ9xRy8QGh7pJc0_Fn7TsLdajgL-yfjUdxruM3LPmlM8WkRWS83zL0x89eKer-Q=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a:2:{i:0;s:8:\"language\";i:1;s:2:\"es\";}'
+    'advanced-backend' => '7auuhmdt9dtmrhv1piu3atci84'
+    '_identity-backend' => '8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"UYG5WQvhO9lswOke5PPFdf560NQrCWvy\",2592000]\";}'
+    '_csrf-backend' => '50c7de954eed3fea3c8c496fd988f3e90196d480070b3fa6864abb34e08108aca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CooY2SQvp12lZmmEU_1MDY7zLiVN7b4M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://admin.walkmypet.local/'
+    '__id' => 1
+    '__authKey' => 'UYG5WQvhO9lswOke5PPFdf560NQrCWvy'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.walkmypet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://admin.walkmypet.local'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://admin.walkmypet.local/cuidadores'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => 'language=acb83e35302327f9a0d0a6ef7a988f19fa2df11c3060ad36be291a2c1f6cd5b1a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22es%22%3B%7D; advanced-backend=7auuhmdt9dtmrhv1piu3atci84; _identity-backend=8570ec9398c61c8c04f321e9178edf52697551388721ec3ba6bbd3a0ec3d1ea9a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22UYG5WQvhO9lswOke5PPFdf560NQrCWvy%22%2C2592000%5D%22%3B%7D; _csrf-backend=50c7de954eed3fea3c8c496fd988f3e90196d480070b3fa6864abb34e08108aca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CooY2SQvp12lZmmEU_1MDY7zLiVN7b4M%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Java\\jdk-15\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\Git\\cmd;C:\\apache-maven-3.8.2\\bin;C:\\xampp\\mysql\\bin;C:\\Program Files\\nodejs\\;C:\\composer;C:\\Users\\Usuario\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Usuario\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\npm;C:\\Users\\Usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Usuario\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 Server at admin.walkmypet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4'
+    'SERVER_NAME' => 'admin.walkmypet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/walkmypet/backend/web/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/walkmypet/backend/web/index.php'
+    'REMOTE_PORT' => '57202'
+    'REDIRECT_URL' => '/cuidadores/delete'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/cuidadores/delete?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1653938100.5307
+    'REQUEST_TIME' => 1653938100
+]
