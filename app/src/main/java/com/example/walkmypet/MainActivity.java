@@ -62,7 +62,7 @@ String usuario,password;
                 password=passwordLogin.getText().toString();
                 if(!usuario.isEmpty() && !password.isEmpty()){
                     ValidarUsuario("http://192.168.1.48/walkmypet/developeru/validar_usuario.php");
-
+//http://192.168.1.48/walkmypet/developeru/mostrar_servicios.php
                 }else{
                     Toast.makeText(MainActivity.this, "No se permite campos vacíos", Toast.LENGTH_SHORT).show();
                 }
@@ -91,7 +91,7 @@ String usuario,password;
             @Override
             public void onResponse(String response) {
                 if (!response.isEmpty()){
-                    Intent intent= new Intent(getApplicationContext(), Propietario.class );
+                    Intent intent= new Intent(getApplicationContext(), LocalizacionActivity.class );
                     startActivity(intent);
                 }else{
                     Toast.makeText(MainActivity.this, "Usuario o contraseña incorrectos",Toast.LENGTH_SHORT).show();

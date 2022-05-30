@@ -27,44 +27,47 @@
                     android:scaleType="fitXY"
                     android:src="@drawable/perfil_cuidador_perros"
                     android:alpha="0.8"/>
+
                 <androidx.appcompat.widget.Toolbar
-                    xmlns:android="http://schemas.android.com/apk/res/android"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="MI PERFIL"
-                        android:textStyle="bold"
                         android:layout_gravity="center"
                         android:gravity="bottom"
-                        android:textColor="#fff"/>
+                        android:text="MI PERFIL"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:text="Guardar"
+                        android:layout_gravity="right"
                         android:layout_marginRight="2dp"
-                        android:layout_gravity="right"/>
+                        android:clickable="true"
+                        android:text="Guardar" />
+
                     <ImageButton
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:clickable="true"
                         android:layout_gravity="left"
                         android:layout_marginRight="10dp"
-                        android:src="@drawable/profile"
-                        />
+                        android:clickable="true"
+                        android:src="@drawable/profile" />
+
                     <ImageButton
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:textStyle="bold"
-                        android:clickable="true"
                         android:layout_gravity="left"
                         android:layout_marginRight="10dp"
+                        android:clickable="true"
                         android:src="@drawable/exit"
-                        />
+                        android:textStyle="bold" />
 
                 </androidx.appcompat.widget.Toolbar>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,51 +9,32 @@
     tools:context=".MainActivity">
 
 
-
-    <ImageView
-        android:id="@+id/logoApp"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_margin="50dp"
-        tools:ignore="ImageContrastCheck"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/logoapp" />
-
-    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
-        android:textSize="50px"
-        android:layout_gravity="center_horizontal"
-        android:textAlignment="center"
-        android:text="¿Permites que esta aplicación active tu ubicación?"
-        />
+    <ListView
+        android:id="@+id/lstView"
+        android:layout_width="413dp"
+        android:layout_height="458dp"
+        android:layout_marginTop="86dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatbtn">
 
 
+    </ListView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="86dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/_dynamic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile"
+        tools:ignore="MissingConstraints" />
 
-        <Button
-            android:id="@+id/btn1"
-            style="@style/ButtonTheme.WalkMyPet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
-            android:text="SI" />
-
-        <Button
-            android:id="@+id/btn2"
-            style="@style/ButtonTheme.WalkMyPet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp"
-            android:text="NO" />
-
-    </LinearLayout>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
