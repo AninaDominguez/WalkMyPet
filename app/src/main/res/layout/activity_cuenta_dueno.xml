@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Propietario"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
@@ -23,7 +23,7 @@
             android:layout_gravity="left"
             android:layout_marginRight="10dp"
             android:clickable="true"
-            android:onClick="goToMyProfile"
+            android:onClick="goToMenu"
             android:src="@drawable/profile" />
 
         <ImageButton
@@ -33,7 +33,7 @@
             android:layout_gravity="left"
             android:layout_marginRight="10dp"
             android:clickable="true"
-            android:onClick="goToBack"
+            android:onClick="getOut"
             android:src="@drawable/exit"
             android:textStyle="bold" />
 

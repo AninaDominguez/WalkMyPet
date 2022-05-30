@@ -1,6 +1,8 @@
 package com.example.walkmypet;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -37,36 +39,20 @@ public class Mascota extends AppCompatActivity {
 
 
 
-    //Generados Getters y Setters
-    public String getName() {
-        return name;
+    public void getOut (View view) {
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void goToMenu(View view){
+        Intent intent = new Intent(this,Propietario.class);
+        startActivity(intent);
 
-    public String getAge() {
-        return age;
     }
+    public void goback(View view){
+        Intent intent = new Intent(this,Propietario.class);
+        startActivity(intent);
 
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public String getSpecie() {
-        return specie;
-    }
-
-    public void setSpecie(String specie) {
-        this.specie = specie;
-    }
-
-    public int getPhoto() {
-        return photo;
-    }
-
-    public void setPhoto(int photo) {
-        this.photo = photo;
     }
 }
